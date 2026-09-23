@@ -1,0 +1,2060 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>9月24日 东航西北直播间 · 主播口播速查手册</title>
+<style>
+:root{
+  --blue-900:#10386b;
+  --blue-700:#1a5fb4;
+  --blue-500:#2f80ed;
+  --blue-300:#7fb3f5;
+  --blue-100:#e6f1ff;
+  --blue-50:#f4f9ff;
+  --orange:#ff8a3d;
+  --orange-deep:#e96f1c;
+  --orange-soft:#fff3e8;
+  --pink:#ff6fa5;
+  --pink-deep:#e94f8b;
+  --pink-soft:#fff0f6;
+  --ink:#1b2735;
+  --ink-2:#33465e;
+  --muted:#6b7c92;
+  --line:#e2edf9;
+  --white:#ffffff;
+  --shadow:0 2px 10px rgba(26,95,180,.07);
+  --shadow-lg:0 8px 26px rgba(26,95,180,.13);
+}
+*{box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  margin:0;
+  font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei","Helvetica Neue",Arial,sans-serif;
+  color:var(--ink);
+  background:linear-gradient(180deg,#eaf3ff 0%, #fbfdff 300px, #f6faff 100%);
+  font-size:16px;
+  line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:1180px;margin:0 auto;padding:0 18px 80px;}
+
+/* ===== 顶部 ===== */
+.topbar{
+  position:sticky;top:0;z-index:60;
+  background:rgba(255,255,255,.94);
+  backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--line);
+  box-shadow:0 2px 12px rgba(26,95,180,.06);
+}
+.topbar-inner{max-width:1180px;margin:0 auto;padding:10px 18px;display:flex;gap:12px;align-items:center;flex-wrap:wrap;}
+.logo{display:flex;align-items:center;gap:9px;font-weight:800;color:var(--blue-900);font-size:16px;white-space:nowrap;}
+.logo-dot{width:26px;height:26px;border-radius:8px;background:linear-gradient(135deg,var(--blue-500),var(--blue-700));display:flex;align-items:center;justify-content:center;color:#fff;font-size:13px;font-weight:800;box-shadow:0 3px 8px rgba(47,128,237,.35);}
+.searchbox{flex:1;min-width:200px;position:relative;}
+.searchbox input{
+  width:100%;padding:9px 14px 9px 36px;border-radius:22px;border:1.5px solid var(--blue-100);
+  background:var(--blue-50);font-size:15px;color:var(--ink);outline:none;transition:.2s;
+}
+.searchbox input:focus{border-color:var(--blue-500);background:#fff;box-shadow:0 0 0 3px rgba(47,128,237,.12);}
+.searchbox::before{content:"🔍";position:absolute;left:13px;top:50%;transform:translateY(-50%);font-size:13px;opacity:.55;}
+.tb-btns{display:flex;gap:7px;flex-wrap:wrap;}
+.tb-btn{
+  border:1px solid var(--blue-100);background:#fff;color:var(--blue-700);
+  padding:7px 13px;border-radius:20px;font-size:13.5px;cursor:pointer;transition:.18s;font-weight:600;white-space:nowrap;
+}
+.tb-btn:hover{background:var(--blue-500);color:#fff;border-color:var(--blue-500);}
+.tb-btn.pink{color:var(--pink-deep);border-color:#ffd3e5;}
+.tb-btn.pink:hover{background:var(--pink);color:#fff;border-color:var(--pink);}
+.tb-btn.orange{color:var(--orange-deep);border-color:#ffdcc2;}
+.tb-btn.orange:hover{background:var(--orange);color:#fff;border-color:var(--orange);}
+
+/* ===== 导航 ===== */
+.navbar{background:#fff;border-bottom:1px solid var(--line);}
+.navbar-inner{max-width:1180px;margin:0 auto;padding:0 18px;display:flex;gap:4px;overflow-x:auto;}
+.navbar a{
+  padding:12px 15px;color:var(--ink-2);text-decoration:none;font-size:15px;font-weight:600;
+  border-bottom:3px solid transparent;white-space:nowrap;
+}
+.navbar a:hover{color:var(--blue-700);border-bottom-color:var(--blue-300);}
+
+/* ===== 页头 ===== */
+.hero{
+  margin:22px 0 10px;padding:26px 30px;border-radius:18px;color:#fff;position:relative;overflow:hidden;
+  background:linear-gradient(120deg,#1a5fb4 0%,#2f80ed 48%,#4f9bf5 100%);
+  box-shadow:var(--shadow-lg);
+}
+.hero::after{
+  content:"";position:absolute;right:-70px;top:-70px;width:240px;height:240px;border-radius:50%;
+  background:radial-gradient(circle,rgba(255,138,61,.55),transparent 68%);
+}
+.hero::before{
+  content:"";position:absolute;right:120px;bottom:-90px;width:170px;height:170px;border-radius:50%;
+  background:radial-gradient(circle,rgba(255,111,165,.5),transparent 66%);
+}
+.hero h1{margin:0 0 8px;font-size:27px;letter-spacing:.5px;position:relative;z-index:2;}
+.hero p{margin:0;font-size:15px;opacity:.95;position:relative;z-index:2;}
+.hero-tags{display:flex;gap:8px;margin-top:14px;flex-wrap:wrap;position:relative;z-index:2;}
+.hero-tag{background:rgba(255,255,255,.2);border:1px solid rgba(255,255,255,.35);padding:4px 12px;border-radius:16px;font-size:13.5px;}
+
+/* ===== 区块 ===== */
+section{margin-top:34px;scroll-margin-top:120px;}
+.sec-head{display:flex;align-items:center;gap:12px;margin-bottom:16px;}
+.sec-num{
+  width:34px;height:34px;border-radius:10px;display:flex;align-items:center;justify-content:center;
+  color:#fff;font-weight:800;font-size:16px;background:linear-gradient(135deg,var(--blue-500),var(--blue-700));
+  box-shadow:0 3px 8px rgba(47,128,237,.3);flex:none;
+}
+.sec-head h2{margin:0;font-size:21px;color:var(--blue-900);}
+.sec-head .sub{font-size:13.5px;color:var(--muted);font-weight:500;}
+
+/* ===== 通用卡片 ===== */
+.card{
+  background:#fff;border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow);
+  padding:18px 22px;margin-bottom:14px;
+}
+.card-t{font-size:17px;font-weight:800;color:var(--blue-900);margin:0 0 10px;display:flex;align-items:center;gap:9px;flex-wrap:wrap;}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:14px;}
+.grid3{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;}
+
+/* ===== 信息小卡 ===== */
+.mini{background:linear-gradient(160deg,#fff,#f7fbff);border:1px solid var(--line);border-radius:14px;padding:16px 18px;}
+.mini h4{margin:0 0 8px;font-size:15.5px;color:var(--blue-700);}
+.mini p{margin:0;font-size:15px;color:var(--ink-2);white-space:pre-wrap;}
+.badge-time{background:var(--orange-soft);color:var(--orange-deep);border:1px solid #ffdcc2;padding:3px 11px;border-radius:14px;font-size:13.5px;font-weight:700;}
+.badge-pink{background:var(--pink-soft);color:var(--pink-deep);border:1px solid #ffd3e5;padding:3px 11px;border-radius:14px;font-size:13.5px;font-weight:700;}
+.badge-blue{background:var(--blue-100);color:var(--blue-700);border:1px solid #cfe4ff;padding:3px 11px;border-radius:14px;font-size:13.5px;font-weight:700;}
+
+/* ===== 链接号索引表 ===== */
+.idx-table{width:100%;border-collapse:collapse;font-size:15px;background:#fff;}
+.idx-table th{
+  background:linear-gradient(135deg,var(--blue-700),var(--blue-500));color:#fff;font-weight:700;
+  padding:11px 12px;text-align:left;font-size:14.5px;position:sticky;top:0;
+}
+.idx-table th:first-child{border-radius:10px 0 0 0;}
+.idx-table th:last-child{border-radius:0 10px 0 0;}
+.idx-table td{padding:9px 12px;border-bottom:1px solid var(--line);color:var(--ink-2);vertical-align:top;}
+.idx-table tr:nth-child(even) td{background:#fafcff;}
+.idx-table tr:hover td{background:var(--blue-50);}
+.idx-link{
+  display:inline-block;min-width:62px;text-align:center;background:var(--blue-100);color:var(--blue-700);
+  border:1px solid #cfe4ff;border-radius:8px;padding:2px 9px;font-weight:800;font-size:14px;
+}
+.idx-table a.jump{color:var(--blue-700);text-decoration:none;font-weight:600;border-bottom:1px dashed var(--blue-300);}
+.idx-table a.jump:hover{color:var(--orange-deep);border-bottom-color:var(--orange);}
+.price{color:var(--orange-deep);font-weight:700;}
+.tbl-wrap{border:1px solid var(--line);border-radius:14px;overflow:auto;max-height:620px;background:#fff;box-shadow:var(--shadow);}
+
+/* ===== 产品卡片 ===== */
+.prod{
+  background:#fff;border:1px solid var(--line);border-left:5px solid var(--blue-500);
+  border-radius:16px;box-shadow:var(--shadow);margin-bottom:18px;overflow:hidden;
+}
+.prod.p-orange{border-left-color:var(--orange);}
+.prod.p-pink{border-left-color:var(--pink);}
+.prod-head{padding:15px 20px;background:linear-gradient(100deg,#f4f9ff,#ffffff 70%);border-bottom:1px solid var(--line);display:flex;align-items:center;gap:12px;flex-wrap:wrap;}
+.prod-no{
+  background:linear-gradient(135deg,var(--blue-500),var(--blue-700));color:#fff;font-weight:800;
+  border-radius:10px;padding:5px 13px;font-size:14.5px;box-shadow:0 3px 8px rgba(47,128,237,.28);flex:none;
+}
+.prod.p-orange .prod-no{background:linear-gradient(135deg,var(--orange),var(--orange-deep));box-shadow:0 3px 8px rgba(255,138,61,.3);}
+.prod.p-pink .prod-no{background:linear-gradient(135deg,var(--pink),var(--pink-deep));box-shadow:0 3px 8px rgba(255,111,165,.3);}
+.prod-name{font-size:18px;font-weight:800;color:var(--blue-900);}
+.prod-meta{margin-left:auto;display:flex;gap:7px;flex-wrap:wrap;align-items:center;}
+.prod-body{padding:6px 20px 16px;}
+
+/* ===== 折叠块 ===== */
+details.blk{border:1px solid var(--line);border-radius:12px;margin:10px 0;background:#fffdfa;overflow:hidden;}
+details.blk[open]{background:#fff;box-shadow:0 2px 8px rgba(26,95,180,.06);}
+details.blk>summary{
+  cursor:pointer;padding:11px 16px;font-weight:700;font-size:15.5px;color:var(--blue-900);
+  list-style:none;display:flex;align-items:center;gap:9px;background:linear-gradient(100deg,#f4f9ff,#fff);
+  border-bottom:1px solid transparent;transition:.15s;
+}
+details.blk[open]>summary{border-bottom-color:var(--line);background:linear-gradient(100deg,#e8f2ff,#fff);}
+details.blk>summary::-webkit-details-marker{display:none;}
+details.blk>summary::before{content:"▸";color:var(--blue-500);font-size:14px;transition:transform .18s;display:inline-block;}
+details.blk[open]>summary::before{transform:rotate(90deg);}
+details.blk>summary:hover{color:var(--orange-deep);}
+.blk-tip{font-size:12.5px;color:var(--muted);font-weight:500;}
+.blk-body{padding:14px 18px 16px;font-size:16px;line-height:1.95;color:var(--ink-2);white-space:pre-wrap;word-break:break-word;}
+.blk-body.small{font-size:15px;line-height:1.85;}
+.pill{display:inline-block;background:var(--blue-100);color:var(--blue-700);border-radius:12px;padding:2px 10px;font-size:12.5px;font-weight:700;}
+.pill.o{background:var(--orange-soft);color:var(--orange-deep);}
+.pill.p{background:var(--pink-soft);color:var(--pink-deep);}
+
+/* ===== FAQ ===== */
+.faq-cat{margin-bottom:12px;}
+.faq-q{
+  background:#fff;border:1px solid var(--line);border-left:4px solid var(--orange);border-radius:12px;
+  padding:13px 18px;margin:8px 0;box-shadow:var(--shadow);
+}
+.faq-q .q{font-weight:800;color:var(--blue-900);font-size:16px;margin-bottom:6px;display:flex;gap:8px;}
+.faq-q .q b{color:var(--orange);flex:none;}
+.faq-q .a{font-size:15.5px;color:var(--ink-2);line-height:1.85;white-space:pre-wrap;}
+.faq-q .a .who{display:inline-block;background:var(--pink-soft);color:var(--pink-deep);border-radius:8px;padding:1px 9px;font-size:13px;font-weight:700;margin-right:6px;}
+.faq-q .a .who.b{background:var(--blue-100);color:var(--blue-700);}
+.faq-q .a .who.o{background:var(--orange-soft);color:var(--orange-deep);}
+
+/* ===== 提示条 ===== */
+.note{
+  background:var(--orange-soft);border:1px dashed #ffc79a;border-radius:12px;padding:12px 16px;
+  font-size:14.5px;color:var(--orange-deep);line-height:1.8;margin:10px 0;
+}
+.note.blue{background:var(--blue-50);border-color:#cfe4ff;color:var(--blue-700);}
+.note.pink{background:var(--pink-soft);border-color:#ffd3e5;color:var(--pink-deep);}
+
+/* ===== 筛选 ===== */
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px;}
+.fbtn{
+  border:1px solid var(--blue-100);background:#fff;color:var(--blue-700);padding:7px 15px;
+  border-radius:20px;cursor:pointer;font-size:14px;font-weight:600;transition:.18s;
+}
+.fbtn:hover{background:var(--blue-50);}
+.fbtn.on{background:linear-gradient(135deg,var(--blue-500),var(--blue-700));color:#fff;border-color:transparent;box-shadow:0 3px 9px rgba(47,128,237,.3);}
+
+.src{font-size:12.5px;color:var(--muted);background:#f7faff;border:1px dashed var(--line);border-radius:8px;padding:6px 11px;margin:10px 0 2px;line-height:1.7;}
+mark{background:linear-gradient(180deg,transparent 55%,#ffe08a 55%);color:inherit;padding:0 1px;border-radius:2px;}
+.empty{display:none;text-align:center;padding:40px;color:var(--muted);font-size:15px;}
+.hidden{display:none !important;}
+
+footer{margin-top:50px;text-align:center;color:var(--muted);font-size:13.5px;padding:20px;line-height:2;}
+.totop{
+  position:fixed;right:22px;bottom:26px;width:46px;height:46px;border-radius:50%;
+  background:linear-gradient(135deg,var(--blue-500),var(--blue-700));color:#fff;border:none;
+  box-shadow:0 6px 16px rgba(26,95,180,.35);cursor:pointer;font-size:18px;display:none;z-index:70;
+}
+.totop.show{display:block;}
+
+@media (max-width:640px){
+  .hero h1{font-size:21px;}
+  .wrap{padding:0 12px 60px;}
+  .card,.prod-body{padding-left:14px;padding-right:14px;}
+  .prod-head{padding:12px 14px;}
+}
+@media print{
+  .topbar,.navbar,.totop,.filters{display:none !important;}
+  details.blk{border:none;}
+  details.blk[open]>summary{background:none;}
+  body{background:#fff;}
+  .prod,.card{break-inside:avoid;}
+}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar-inner">
+    <div class="logo"><span class="logo-dot">东</span>9·24 口播速查手册</div>
+    <div class="searchbox"><input id="q" type="search" placeholder="搜关键词：退款 / 儿童 / 机建燃油 / 48小时 / 兑换 …" autocomplete="off"></div>
+    <div class="tb-btns">
+      <button class="tb-btn" id="btnOpen">展开全部</button>
+      <button class="tb-btn" id="btnClose">收起全部</button>
+      <button class="tb-btn orange" id="btnGoIndex">链接号索引</button>
+      <button class="tb-btn pink" id="btnTop">回到顶部</button>
+    </div>
+  </div>
+</div>
+
+<div class="navbar">
+  <div class="navbar-inner">
+    <a href="#s0">直播速览</a>
+    <a href="#s1">常见问题速查</a>
+    <a href="#s2">通用话术</a>
+    <a href="#s3">产品话术库</a>
+    <a href="#s4">核对提示</a>
+  </div>
+</div>
+
+<div class="wrap">
+
+<div class="hero">
+  <h1>2026年9月24日「东航西北直播间」主播口播速查手册</h1>
+  <p>直播时间 15:30 - 19:30 ｜ 全套口播 + 规则 + 问答，遇到同类问题直接点开读，不用再翻脚本</p>
+  <div class="hero-tags">
+    <span class="hero-tag">📌 链接号 1 - 85</span>
+    <span class="hero-tag">🎁 福袋 ≤ 8 个</span>
+    <span class="hero-tag">📞 客服 95530</span>
+    <span class="hero-tag">🔍 支持全站搜索</span>
+  </div>
+</div>
+
+<!-- ===================== 0. 直播速览 ===================== -->
+<section id="s0">
+  <div class="sec-head">
+    <div class="sec-num">0</div>
+    <div><h2>直播速览</h2><div class="sub">排班 · 福袋 · 链接号索引（点击产品名可跳到话术）</div></div>
+  </div>
+
+  <div class="grid3">
+    <div class="mini">
+      <h4>⏰ 本场直播</h4>
+      <p>2026年9月24日“东航西北直播间”直播计划
+直播时间：15：30-19：30</p>
+    </div>
+    <div class="mini">
+      <h4>🎁 二、直播福袋发放说明（控制8个以内）</h4>
+      <p>1.每45mins发一个福袋
+2.人数破整w发一个福袋</p>
+    </div>
+    <div class="mini">
+      <h4>📞 常用兜底</h4>
+      <p>东航 24 小时客服热线：95530
+（讲不清的规则一律引导拨打）</p>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top:14px;">
+    <div class="card-t">🗓 三、直播排班计划</div>
+    <div class="grid2">
+      <div class="mini" style="border-left:4px solid var(--blue-500);">
+        <h4><span class="badge-blue">15：30-16：30</span></h4>
+        <p>国博研学卡、国内经济舱单次</p>
+      </div>
+      <div class="mini" style="border-left:4px solid var(--orange);">
+        <h4><span class="badge-time">16：30-17：30</span></h4>
+        <p>云游四季卡、国际经济舱单次</p>
+      </div>
+      <div class="mini" style="border-left:4px solid var(--pink);">
+        <h4><span class="badge-pink">17：30-18：30</span></h4>
+        <p>国博、区域版、趣游卡</p>
+      </div>
+      <div class="mini" style="border-left:4px solid var(--blue-700);">
+        <h4><span class="badge-blue">18：30-19：30</span></h4>
+        <p>逼单 国际 国博 国内单次</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-t">🔗 一、产品序列 / 链接号索引 <span class="pill">来自《9月24日直播计划》</span></div>
+    <div class="tbl-wrap">
+      <table class="idx-table">
+        <thead><tr><th style="width:96px;">链接号</th><th>产品</th><th style="width:230px;">价格档位</th></tr></thead>
+        <tbody>
+          <tr><td><span class="idx-link">1</span></td><td><a class="jump" href="#p-guobo">国博研学卡 888档至10月8日</a></td><td class="price">888</td></tr>
+          <tr><td><span class="idx-link">2-6</span></td><td><a class="jump" href="#p-quanguo">国内经济舱单次卡 9.21-10.24</a></td><td class="price">329 / 429 / 599 / 899 / 1099</td></tr>
+          <tr><td><span class="idx-link">7-8</span></td><td><a class="jump" href="#p-siji">云游四季卡</a></td><td class="price">539 / 969</td></tr>
+          <tr><td><span class="idx-link">9-15</span></td><td><a class="jump" href="#p-guoji">国际经济舱单次卡</a></td><td class="price">300 / 400 / 500 / 600 / 800 / 1000 / 2000</td></tr>
+          <tr><td><span class="idx-link">16-19</span></td><td><a class="jump" href="#p-guoji">国际公务舱单次卡</a></td><td class="price">1600 / 2000 / 8000 / 11000</td></tr>
+          <tr><td><span class="idx-link">20-23</span></td><td><a class="jump" href="#p-quyu">国内经济舱单次卡上海版 8.22-10.24</a></td><td class="price">328 / 428 / 466 / 588</td></tr>
+          <tr><td><span class="idx-link">24-27</span></td><td><a class="jump" href="#p-quyu">国内经济舱单次卡山西版 8.25-10.24</a></td><td class="price">328 / 428 / 466 / 588</td></tr>
+          <tr><td><span class="idx-link">28-31</span></td><td><a class="jump" href="#p-quyu">国内经济舱单次卡山东版 9.1-10.24</a></td><td class="price">328 / 428 / 466 / 588</td></tr>
+          <tr><td><span class="idx-link">32-35</span></td><td><a class="jump" href="#p-quyu">国内经济舱单次卡湖北版 9.1-10.24</a></td><td class="price">328 / 428 / 466 / 588</td></tr>
+          <tr><td><span class="idx-link">36-39</span></td><td><a class="jump" href="#p-quyu">国内经济舱单次卡广东版 6.12-9.28</a></td><td class="price">328 / 428 / 466 / 588</td></tr>
+          <tr><td><span class="idx-link">40-43</span></td><td><a class="jump" href="#p-quyu">国内经济舱单次卡福建版 8.24-10.24</a></td><td class="price">328 / 428 / 466 / 588</td></tr>
+          <tr><td><span class="idx-link">44-47</span></td><td><a class="jump" href="#p-quyu">国内经济舱单次卡云南版 9.10-10.24</a></td><td class="price">328 / 428 / 466 / 588</td></tr>
+          <tr><td><span class="idx-link">48-51</span></td><td><a class="jump" href="#p-quyu">国内经济舱单次卡甘肃版 8.30-10.24</a></td><td class="price">328 / 428 / 466 / 588</td></tr>
+          <tr><td><span class="idx-link">52-55</span></td><td><a class="jump" href="#p-quyu">国内经济舱单次卡安徽版 8.20-10.24</a></td><td class="price">328 / 428 / 466 / 588</td></tr>
+          <tr><td><span class="idx-link">56-59</span></td><td><a class="jump" href="#p-quyu">国内经济舱单次卡川渝版 9.11-10.24</a></td><td class="price">328 / 428 / 466 / 588</td></tr>
+          <tr><td><span class="idx-link">60-63</span></td><td><a class="jump" href="#p-quyu">国内经济舱单次卡江苏版 10.3-10.24</a></td><td class="price">328 / 428 / 466 / 588</td></tr>
+          <tr><td><span class="idx-link">64</span></td><td><a class="jump" href="#p-pengzhang">国际中转机票代金券（膨胀券）</a></td><td class="price">50 抵 200</td></tr>
+          <tr><td><span class="idx-link">65</span></td><td><a class="jump" href="#p-pengzhang">国际中转公务舱机票代金券（膨胀券）</a></td><td class="price">100 抵 400</td></tr>
+          <tr><td><span class="idx-link">66</span></td><td><a class="jump" href="#p-zhongtai">趣游卡中泰纪念版 4 次卡</a></td><td class="price">1600</td></tr>
+          <tr><td><span class="idx-link">67-68</span></td><td><a class="jump" href="#p-yazhou">趣游卡亚洲版经济舱 6 次 / 10 次</a></td><td class="price">2400 / 3200</td></tr>
+          <tr><td><span class="idx-link">69-70</span></td><td><a class="jump" href="#p-yazhou-gw">趣游卡亚洲版公务舱 6 次 / 10 次</a></td><td class="price">9600 / 12000</td></tr>
+          <tr><td><span class="idx-link">71-72</span></td><td><a class="jump" href="#p-quanqiu">趣游卡全球版 6 次 / 10 次</a></td><td class="price">4800 / 6400</td></tr>
+          <tr><td><span class="idx-link">73-75</span></td><td><a class="jump" href="#p-zhijian">国际港澳台经济舱多次直减券</a></td><td class="price">4 次 / 6 次 / 10 次</td></tr>
+          <tr><td><span class="idx-link">76-77</span></td><td><a class="jump" href="#p-zhijian-duo">国际港澳台经济舱多人多次直减券（面值 1000）</a></td><td class="price">12 次 / 20 次</td></tr>
+          <tr><td><span class="idx-link">78-79</span></td><td><a class="jump" href="#p-zhijian-duo">国际港澳台公务舱多人多次直减券（面值 2000）</a></td><td class="price">10 次 / 16 次</td></tr>
+          <tr><td><span class="idx-link">80-81</span></td><td><a class="jump" href="#p-zhijian-duo">国际港澳台公务舱多人多次直减券（面值 3000）</a></td><td class="price">10 次 / 16 次</td></tr>
+          <tr><td><span class="idx-link">82</span></td><td><a class="jump" href="#p-wifi">高速版空中 Wi-Fi 国际（除日韩）单次券</a></td><td class="price">120</td></tr>
+          <tr><td><span class="idx-link">83-84</span></td><td><a class="jump" href="#p-wifi">高速版空中 Wi-Fi 半年卡 / 一年卡</a></td><td class="price">399 / 599</td></tr>
+          <tr><td><span class="idx-link">85</span></td><td><a class="jump" href="#p-guibin">自营贵宾室单次券</a></td><td class="price">120</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+<!-- ===================== 1. 常见问题速查 ===================== -->
+<section id="s1">
+  <div class="sec-head">
+    <div class="sec-num">1</div>
+    <div><h2>常见问题速查</h2><div class="sub">弹幕高频问题 · 按问题类型聚合 · 同类问题直接照读</div></div>
+  </div>
+
+  <div class="note">用法：主播遇到弹幕提问，直接在顶部搜索框输入关键词（如「儿童」「48小时」），或点开下面对应分类照读即可。所有答案均为脚本原文。</div>
+
+  <div class="faq-cat">
+    <div class="card-t">💰 一、包不包含机建 / 燃油税费？为什么兑换时还要我付钱？</div>
+
+    <div class="faq-q">
+      <div class="q"><b>问</b>包不包含机建燃油费？</div>
+      <div class="a"><span class="who b">国内单次卡（全国版 2-6 / 区域版 20-63）</span>咱们的次卡不含机建燃油费哦，换票的时候另行支付就可以啦，国内近期机建燃油费有所下调，具体以实际查询为准。（8月5日起，国内800公里及以下40元；800公里以上70元）</div>
+    </div>
+
+    <div class="faq-q">
+      <div class="q"><b>问</b>包不包含燃油税费？/ 为什么兑换的时候让我再付钱？</div>
+      <div class="a"><span class="who b">国际单次卡（9-19）</span>咱们的国际次卡不含燃油及其他税费哦，换票的时候需要另行支付，不同航线税费不同，税费标准和正价国际机票是一样的。具体在兑换时可以查看到，如果觉得不合适，不付费不出票是可以退款的。</div>
+    </div>
+
+    <div class="faq-q">
+      <div class="q"><b>问</b>包不包含燃油税费？/ 为什么兑换的时候让我再付钱？</div>
+      <div class="a"><span class="who">中泰 4 次卡（66）</span>咱们这款中泰 4 次卡不含燃油及其他税费哦，换票的时候需要另行支付，不同航线税费不同，税费标准和正价国际机票是一样的。具体在兑换时可以查看到，如果觉得不合适，只要完全未使用都可以申请退款的。
+
+<span class="who">趣游卡亚洲版（67-68）</span>咱们这两款亚洲版趣游卡不含燃油及其他税费哦，换票的时候需要另行支付，不同航线税费不同，税费标准和正价国际机票是一样的。具体在兑换时可以查看到，如果觉得不合适，只要完全未使用都可以申请退款的。
+
+<span class="who">趣游卡全球版（71-72）</span>咱们这两款全球版趣游卡不含燃油及其他税费哦，换票的时候需要另行支付，不同航线税费不同，税费标准和正价国际机票是一样的。具体在兑换时可以查看到，如果觉得不合适，只要完全未使用都可以申请退款的。
+
+<span class="who o">趣游卡亚洲公务舱（69-70）</span>咱们这两款亚洲公务版趣游卡不含燃油及其他税费哦，换票的时候需要另行支付；另外部分航线兑换时还需要额外支付 0/300/800/1500 元的票款差价，不同航线税费和差价不同，标准和正价机票一致。具体在兑换时可以查看到，如果觉得不合适，只要完全未使用都可以申请退款的。</div>
+    </div>
+
+    <div class="faq-q">
+      <div class="q"><b>问</b>包不包含燃油税费？/ 为什么抵扣后还要付钱？</div>
+      <div class="a"><span class="who">直减券（73-75）</span>咱们这款券包是每次抵扣 1000 元机票票面价格的抵用券，仅抵扣机票票面价，需要您补齐其他机票差价。而且不含燃油及其他税费哦，购票的时候税费需要另行支付，不同航线税费不同，标准和正价机票是一样的。具体在购票时可以查看到，如果觉得不合适，只要完全未使用都可以申请退款的。
+
+<span class="who o">直减券 4 人版（76-81）</span>咱们这款 4 人版券包是机票票面价抵用券，经济舱每次抵扣 1000 元、公务舱每次抵扣 2000/3000 元，仅抵扣机票票面价，超出部分需要补齐差价；而且不含燃油及其他税费哦，购票的时候税费需要另行支付，不同航线税费不同，标准和正价机票是一样的。具体在购票时可以查看到，如果觉得不合适，只要完全未使用都可以申请退款的。</div>
+    </div>
+
+    <div class="faq-q">
+      <div class="q"><b>问</b>膨胀券能抵扣什么？含税吗？</div>
+      <div class="a"><span class="who o">国际中转膨胀券（64-65）</span>只能抵扣机票票价，不能和其他优惠券叠加，每张机票只能用 1 张，只能在东航官网、APP、小程序用。满减门槛：200 元经济舱券需要机票票面价满 800 元可用；400 元公务舱券需要票面价满 1600 元可用。</div>
+    </div>
+  </div>
+
+  <div class="faq-cat">
+    <div class="card-t">🧒 二、我带孩子可以买吗？</div>
+
+    <div class="faq-q">
+      <div class="q"><b>问</b>我带孩子可以买吗？</div>
+      <div class="a"><span class="who b">国内单次卡（全国版 / 区域版）</span>可以的哦，2 周岁以上都能兑换～不过 2-12 岁的儿童需要成人陪同，不可单独出票，兑换时先兑换大人的票，再单独兑换儿童票，兑换界面有绑定大人姓名和票号的地方，填写进去就可以啦。如果您的儿童不足2周岁，需要拨打客服电话购买婴儿抱票。</div>
+    </div>
+
+    <div class="faq-q">
+      <div class="q"><b>问</b>我带孩子可以买吗？</div>
+      <div class="a"><span class="who b">国际单次卡（9-19）</span>可以的哦，2 周岁以上都能兑换～不过 2-12 岁的儿童需要和成人在同一订单内兑换，需要成人陪同出行，不可单独出票；如果您的儿童不足 2 周岁，需要拨打客服电话购买婴儿票。
+
+<span class="who">中泰 / 亚洲版 / 亚洲公务版 / 全球版趣游卡</span>可以的哦，2 周岁以上都能兑换～不过 2-12 岁的儿童需要和成人在同一订单内兑换，需要成人陪同，不可单独出票；如果您的儿童不足 2 周岁，需要拨打客服电话购买婴儿票。
+
+<span class="who o">直减券（单人 73-75 / 4 人版 76-81）</span>可以的哦，2 周岁以上都能使用～不过 2-12 岁的儿童需要和成人在同一订单内购票，需要成人陪同，不可单独出票；如果您的儿童不足 2 周岁，需要拨打客服电话购买婴儿票。</div>
+    </div>
+
+    <div class="faq-q">
+      <div class="q"><b>问</b>国博研学卡儿童能用吗？</div>
+      <div class="a"><span class="who">国博研学卡（1）</span>适用人群：2周岁（含）以上的儿童及成人，儿童可在12周岁及以上乘机人完成机票购买后兑换。</div>
+    </div>
+
+    <div class="faq-q">
+      <div class="q"><b>问</b>云游四季卡有年龄限制吗？</div>
+      <div class="a"><span class="who p">云游四季卡（7-8）</span>适用人群：18至23周岁，或年满55周岁及以上旅客。</div>
+    </div>
+
+    <div class="faq-q">
+      <div class="q"><b>问</b>趣游卡全球版 / 4 人版直减券的乘机人年龄？</div>
+      <div class="a"><span class="who p">趣游卡全球版（71-72）/ 直减券 4 人版（76-81）</span>乘机人年龄须为12周岁及以上，而且绑定规则很关键——购买后30个自然日内，必须激活产品作为使用账户，账户须为12周岁以上，后续登录该账户使用。</div>
+    </div>
+  </div>
+
+  <div class="faq-cat">
+    <div class="card-t">🔎 三、怎么查询航线 / 适用航班？</div>
+
+    <div class="faq-q">
+      <div class="q"><b>问</b>怎么查询航线？</div>
+      <div class="a"><span class="who b">国内单次卡 / 国际单次卡 / 趣游卡系列</span>可以先看商品详情页做参考哦，详情页仅作参考，拍下后可以去抖音兑换专区查看实时可兑航线，没有合适的只要未出票都可以申请退款哦。</div>
+    </div>
+
+    <div class="faq-q">
+      <div class="q"><b>问</b>怎么查询航线？（按产品细分）</div>
+      <div class="a"><span class="who">中泰 4 次卡（66）</span>可以先看商品详情页做参考哦，详情页仅作参考，拍下后可以去抖音兑换专区查看实时可兑的泰国航线，这款是机会型产品，具体可兑航班以兑换专区实时查询为准。
+
+<span class="who">趣游卡亚洲版（67-68）</span>可以先看商品详情页做参考哦，详情页仅作参考，拍下后可以去抖音兑换专区查看实时可兑的亚洲及地区航线（不含中东航线），这款是机会型产品，具体可兑航班以兑换专区实时查询为准。
+
+<span class="who o">趣游卡亚洲公务舱（69-70）</span>可以先看商品详情页做参考哦，详情页仅作参考，拍下后可以去抖音兑换专区查看实时可兑的亚洲部分指定公务舱航线，这款是机会型产品，具体可兑航班、差价以兑换专区实时查询为准。
+
+<span class="who">趣游卡全球版（71-72）</span>可以先看商品详情页做参考哦，详情页仅作参考，拍下后可以去抖音兑换专区查看实时可兑的除美洲外的全球国际及地区航线，这款是机会型产品，具体可兑航班以兑换专区实时查询为准。</div>
+    </div>
+
+    <div class="faq-q">
+      <div class="q"><b>问</b>怎么查询适用航线？（直减券）</div>
+      <div class="a"><span class="who">直减券（73-75）</span>可以先看商品详情页做参考哦，详情页仅作参考，拍下激活后可以在抖音兑换专区购票时直接使用，适用东上航承运的全球所有航线（含北美），直达、中转航班都能用，经济舱、超级经济舱都支持。
+
+<span class="who o">直减券 4 人版（76-81）</span>可以先看商品详情页做参考哦，详情页仅作参考，拍下激活后可以在东航 APP、官网、小程序购票时直接使用，适用东上航承运的全球所有航线（含北美），直达、中转航班都能用，经济舱 / 超级经济舱、公务舱对应档位都支持。</div>
+    </div>
+
+    <div class="faq-q">
+      <div class="q"><b>提示</b>通用风险提示（所有机会型产品都要说）</div>
+      <div class="a"><span class="who o">风险提示</span>并非所有航线及航班在您兑换的时候都有可兑座位，可能存在您想要的航线及航班不可兑的情况。具体以兑换专区实际查询为准。</div>
+    </div>
+  </div>
+
+  <div class="faq-cat">
+    <div class="card-t">↩️ 四、买了 / 查不到想要的能退吗？</div>
+
+    <div class="faq-q">
+      <div class="q"><b>问</b>买了查询航线没有想要的可以退吗？</div>
+      <div class="a"><span class="who b">国内单次卡 / 国际单次卡</span>可以的哦，只要机票未出票，都可以申请全额退款，放心囤就好～（不管有没有激活兑换，都可以申请全额退款）</div>
+    </div>
+
+    <div class="faq-q">
+      <div class="q"><b>问</b>买了查询航线没有想要的可以退吗？</div>
+      <div class="a"><span class="who">中泰 4 次卡（66）</span>可以的哦，只要完全未使用（剩余 4 次权益），不管有没有激活兑换，都可以申请全额退款，放心囤就好～只要使用过哪怕 1 次，就不支持退款了哦。
+
+<span class="who">趣游卡亚洲版（67-68）</span>可以的哦，6 次卡剩余 6 次权益、10 次卡剩余 10 次权益（完全未使用），不管有没有激活兑换，都可以申请全额退款，放心囤就好～只要使用过哪怕 1 次，就不支持退款了哦。
+
+<span class="who o">趣游卡亚洲公务舱（69-70）</span>可以的哦，6 次卡剩余 6 次权益、10 次卡剩余 10 次权益（完全未使用），不管有没有激活兑换，都可以申请全额退款，放心囤就好～只要使用过哪怕 1 次，就不支持退款了哦。
+
+<span class="who">趣游卡全球版（71-72）</span>可以的哦，6 次卡剩余 6 次权益、10 次卡剩余 10 次权益（完全未使用），不管有没有激活兑换，都可以申请全额退款，放心囤就好～只要使用过哪怕 1 次，就不支持退款了哦。
+
+<span class="who p">直减券（73-81）</span>可以的哦，对应档位的抵用券完全未使用（剩余对应总次数），不管有没有激活兑换，都可以申请全额退款，放心囤就好～只要使用过哪怕 1 次，就不支持退款了哦。</div>
+    </div>
+
+    <div class="faq-q">
+      <div class="q"><b>问</b>不用了能退吗？</div>
+      <div class="a"><span class="who o">国际中转膨胀券（64-65）</span>当然可以！只要券没使用，随时能申请全额退款，过期没使用系统也会自动退款！</div>
+    </div>
+  </div>
+
+  <div class="faq-cat">
+    <div class="card-t">👥 五、可以两个人一起用吗？能不能换人？</div>
+
+    <div class="faq-q">
+      <div class="q"><b>问</b>可以两个人一起用吗？</div>
+      <div class="a"><span class="who">中泰 4 次卡（66）</span>不可以哦，这个产品仅限绑定 1 人使用，绑定后不可变更，不支持多人共享。
+
+<span class="who">趣游卡亚洲版（67-68）</span>不可以哦，两款卡都仅限绑定 1 人使用，绑定后不可变更，不支持多人共享。
+
+<span class="who o">趣游卡亚洲公务舱（69-70）</span>不可以哦，两款卡都仅限绑定 1 人使用，绑定后不可变更，不支持多人共享。
+
+<span class="who">趣游卡全球版（71-72）</span>还要绑定1名乘机人，绑定后不可变更！
+
+<span class="who">直减券（73-75）</span>不可以哦，这款券包仅限绑定 1 人使用，绑定后不可变更，不支持多人共享。</div>
+    </div>
+
+    <div class="faq-q">
+      <div class="q"><b>问</b>可以几个人一起用吗？可以更改乘机人吗？</div>
+      <div class="a"><span class="who o">直减券 4 人版（76-81）</span>这款 4 人版券包最多可绑定 4 名乘机人使用，绑定后不可变更，多人出行需要分开下单，绑定后不支持更换乘机人哦。</div>
+    </div>
+  </div>
+
+  <div class="faq-cat">
+    <div class="card-t">✂️ 六、我只用了几次，剩下的可以退吗？</div>
+
+    <div class="faq-q">
+      <div class="q"><b>问</b>我只用了两次 / 几次，剩下的可以退吗？</div>
+      <div class="a"><span class="who">中泰 4 次卡（66）</span>不可以哦，不支持部分退款，只有一次都没有使用、剩余 4 次权益的情况下，才可以申请全额退款。
+
+<span class="who">趣游卡亚洲版 / 亚洲公务版 / 全球版</span>不可以哦，不支持部分退款，只有一次都没有使用、剩余全部权益的情况下，才可以申请全额退款。
+
+<span class="who p">直减券（73-81）</span>不可以哦，不支持部分退款，只有一次都没有使用、剩余全部抵用券的情况下，才可以申请全额退款。</div>
+    </div>
+  </div>
+
+  <div class="faq-cat">
+    <div class="card-t">⏳ 七、兑换需要提前多久？（会员等级要求）</div>
+
+    <div class="faq-q">
+      <div class="q"><b>问</b>兑换需要提前多久？</div>
+      <div class="a"><span class="who b">国内单次卡（全国版 2-6 / 区域版 20-63）</span>需至少提前 3 个自然日（含）以上兑换（如9月28日航班最晚应在9月25日兑换），确定行程的情况下越早兑越好。
+
+<span class="who b">国际单次卡（9-19）</span>必须至少提前 7 个自然日兑换，确定行程的情况下越早兑越好。</div>
+    </div>
+
+    <div class="faq-q">
+      <div class="q"><b>问</b>兑换需要提前多久？（趣游卡 / 直减券按会员等级）</div>
+      <div class="a"><span class="who">中泰 4 次卡（66）/ 亚洲版（67-68）/ 全球版（71-72）</span>东方万里行 2 星及以上会员，没有提前兑换限制；2 星以下会员或非会员，需要至少提前 14 个自然日兑换哦。（如 9 月 15 日的航班，最晚可在 9 月 1 日兑换）
+
+<span class="who o">趣游卡亚洲公务舱（69-70）</span>东方万里行 5 星及以上会员，没有提前兑换限制；5 星以下会员或非会员，需要至少提前 7 个自然日兑换哦。（如 11 月 30 日的航班，最晚可在 11 月 23 日兑换）</div>
+    </div>
+  </div>
+
+  <div class="faq-cat">
+    <div class="card-t">📅 八、有效期 / 兑换码有效期</div>
+
+    <div class="faq-q">
+      <div class="q"><b>问</b>有效期到什么时候？</div>
+      <div class="a"><span class="who">国博研学卡（1）</span>购买时限：上线之日起-2026年10月08日。抖音兑换码有效期：购买之日起30个自然日内。机票券使用有效期：抖音兑换码兑换之日起30天内。国博特展门票兑换日期：上线之日起-2026年10月09日。
+
+<span class="who b">国内单次卡（全国版 2-6）</span>抖音兑换码有效期是即日起至2026年10月24日；可兑航班是 即日起截至2026年10月24日。
+
+<span class="who b">国内单次卡（区域版 20-63）</span>抖音兑换码需要在购买之日起 30 个自然日内兑换，兑换后 30 天内使用，最晚到 2026 年 10 月 24 日；可兑航班是 即日起至 10 月 24 日。
+
+<span class="who p">云游四季卡（7-8）</span>购买时限：即日起至2026年12月31日。适用航班日期：即日起至2026年12月31日（6月18日至8月31日、10月1日至10月7日除外）。机票券使用有效期：购买之日起30天内。
+
+<span class="who">国际单次卡（9-19）</span>抖音兑换码有效期到 2026 年 12 月 31 日，激活后 60 个自然日内使用。
+
+<span class="who o">国际中转膨胀券（64-65）</span>抖音兑换码有效期为购买之日起30个自然日内；产品使用有效期为抖音兑换码兑换之日起30天内；航班日期为抖音兑换码兑换之日起90天内。</div>
+    </div>
+
+    <div class="faq-q">
+      <div class="q"><b>问</b>有效期到什么时候？（趣游卡 / 直减券：两个关键时间点）</div>
+      <div class="a"><span class="who">中泰 / 亚洲版 / 亚洲公务版 / 全球版趣游卡（66-72）</span>① 抖音兑换码有效期：购买之日起30个自然日内（必须在这个时间内激活绑定）；② 产品使用有效期：兑换之日起365个自然日内，可查询兑换之日起365天内的航班日期，最终以兑换专区查询结果为准！
+
+<span class="who p">直减券（73-81）</span>① 抖音兑换码有效期：购买之日起30个自然日内（必须在这个时间内通过东方万里行会员账户兑换激活）；② 产品使用有效期：绑定产品使用账户之日起365个自然日内 / 兑换之日起365天内，航班日期也需在这个时间段内，最终以查询结果为准！</div>
+    </div>
+  </div>
+
+  <div class="faq-cat">
+    <div class="card-t">🎫 九、退票 / 权益返还规则（按产品不同，别讲混）</div>
+
+    <div class="faq-q">
+      <div class="q"><b>问</b>已出票后退票，权益次数还返还吗？</div>
+      <div class="a"><span class="who b">国内单次卡（全国版 / 区域版）</span>航班计划起飞前 48 小时（含）之外提交自愿退票，返还权益次数，反之不返还权益次数；非自愿退票均返还权益次数。退票退还机建及燃油附加费。
+
+<span class="who p">云游四季卡（7-8）</span>单程：客票未乘坐时，航班计划起飞前48小时（含）之外提交自愿退票，返还权益次数，反之不返还权益次数，非自愿退票均返还权益次数；客票已乘坐时，退票不返还权益次数。往返：往返客票均未乘坐时，航班计划起飞前48小时（含）之外提交自愿退票，返还权益次数，反之不返还权益次数，非自愿退票均返还权益次数；往返客票部分已乘坐时，退票均不返还权益次数。
+
+<span class="who">国际单次卡（9-19）</span>已经出票的：航班起飞前 7 天（168 小时）外自愿退票，返还权益次数，仅退还除燃油费外的其他税费；不足 7 天退票，不返还权益，也仅退还除燃油费外的其他税费。
+
+<span class="who o">趣游卡系列（66-72）</span>航班计划起飞前120小时（含）之外提交自愿退票，返还权益次数，退还燃油附加费及其他税费，反之不返还权益次数，不退还燃油附加费，仅退还其他税费；非自愿退票均返还权益次数。（亚洲公务舱：不足120小时还不退还航线票款差价）</div>
+    </div>
+
+    <div class="faq-q">
+      <div class="q"><b>问</b>直减券用券买的票，改期 / 退票怎么办？</div>
+      <div class="a"><span class="who p">直减券（73-81）</span>用抵用券买的机票如果需要自愿改期或升舱，要按实际机票金额和变更手续费收取，还得补足抵用券抵扣的票价，非自愿变更不用补足；退票手续费按实际机票金额计算。客票完全未使用时发生自愿变更或非自愿退票，返还权益次数，一旦使用过，就不返还了。（4 人版：用券买的票不能签转）
+
+<span class="who o">国际中转膨胀券（64-65）</span>用券买的票不能签转；自愿改期、升舱需要补回抵扣的金额；自愿退票不返还券，只有客票完全未使用的自愿改期、非自愿退票才返还券。</div>
+    </div>
+
+    <div class="faq-q">
+      <div class="q"><b>问</b>能不能改航班 / 签转？</div>
+      <div class="a"><span class="who b">通用</span>产品不支持自愿改航班，也不能签转东上航以外的航司。不得自愿变更，不得自愿签转至非东/上航实际承运的航班。</div>
+    </div>
+  </div>
+
+  <div class="faq-cat">
+    <div class="card-t">🧾 十、发票 / 报销 / 客服</div>
+
+    <div class="faq-q">
+      <div class="q"><b>问</b>能开发票吗？怎么报销？</div>
+      <div class="a"><span class="who b">国内单次卡</span>行程结束后可以在东航抖音服务专区开电子发票，有任何问题打东航客服热线 95530 就可以啦。
+
+<span class="who">国博研学卡（1）</span>可在使用且不可退款后（如已成行），通过东方航空移动端（东方航空APP、微信小程序）抖音服务专区申请开具电子发票，发票抬头可选择企业或个人，个人抬头为抖音兑换码激活人，发票一经开具不得变更。
+
+<span class="who p">云游四季卡（7-8）</span>可在使用且不可退款后（如已成行），通过东航APP开具电子发票，发票抬头为乘机人本人或企业。
+
+<span class="who">趣游卡系列 / 直减券</span>兑换时需另行支付基建燃油附加费及其他税费，这些费用不可使用易享券抵扣，但可开具报销凭证。
+
+<span class="who o">Wi-Fi 年卡 / 半年卡</span>产品启用后可在东方航空移动端（东方航空APP、微信小程序）抖音服务专区申请开具电子发票，发票抬头可选择企业或个人，个人抬头为抖音兑换码激活人，发票一经开具不得变更。</div>
+    </div>
+
+    <div class="faq-q">
+      <div class="q"><b>问</b>还有问题找谁？</div>
+      <div class="a"><span class="who o">通用兜底</span>有任何疑问，详询东航 24 小时客服热线：95530！</div>
+    </div>
+  </div>
+
+  <div class="faq-cat">
+    <div class="card-t">🎁 十一、国博研学卡专属问题</div>
+
+    <div class="faq-q">
+      <div class="q"><b>问</b>国博特展门票怎么拿 / 怎么预约？</div>
+      <div class="a"><span class="who">国博研学卡（1）</span>发放方式：首次兑换机票后，将发送短信至产品抖音兑换码激活人手机，抖音兑换码激活人可通过短信链接或登录东航APP&gt;我的&gt;卡券里预约国博特展参观。国博卡券将绑定至机票券首次兑换出票时的旅客，不可变更。
+兑换券有效期：自门票获取之日起90天内有效，如过期未使用，则视为旅客主动放弃权益，过期不退。
+预约时限：购买人可预约卡券到账90天内中国国家博物馆特展参观（如需预约次日参观，需在提前一天的上午10点前操作预约）。
+预约变更：在兑换券有效期内如需更改或取消预约参观，请至少于入馆前一天上午10点前通过原短信链接或东航APP&gt;我的&gt;全部订单里更改或取消，最多可更改参观日期2次，最终预约结果将通过短信通知。</div>
+    </div>
+
+    <div class="faq-q">
+      <div class="q"><b>问</b>国博研学卡的航班适用范围？</div>
+      <div class="a"><span class="who">国博研学卡（1）</span>东上航实际承运的北京进出港单程国内直达航班（不含代码共享航班）。适用舱位：经济舱（不含超级经济舱）。本期权益为中国国家博物馆《叩问永恒——庞贝的探索与发掘》特展门票1张，适用日期截至2026年10月09日。</div>
+    </div>
+  </div>
+
+  <div class="faq-cat">
+    <div class="card-t">🛒 十二、限购 / 限量</div>
+
+    <div class="faq-q">
+      <div class="q"><b>问</b>一个人能买几套？</div>
+      <div class="a"><span class="who b">国博研学卡（1）/ 云游四季卡（7-8）</span>每个账户限购10套产品。
+
+<span class="who">趣游卡全球版（71-72）</span>每档产品限购10套，有需要多囤的家人们，记得把握好数量哦！
+
+<span class="who o">国际中转膨胀券（64-65）</span>每个账户每个档位限购 10 张，每天限量：200 元经济舱券每天 2000 张，400 元公务舱券每天 1000 张。
+
+<span class="who p">Wi-Fi 年卡 / 半年卡（83-84）</span>购买年卡/半年卡产品，每个账号每类年卡/半年卡产品最多购买10套（含积分兑换）。</div>
+    </div>
+  </div>
+</section>
+<!-- ===================== 2. 通用话术 ===================== -->
+<section id="s2">
+  <div class="sec-head">
+    <div class="sec-num">2</div>
+    <div><h2>通用话术</h2><div class="sub">兑换五步 · 退款保障 · 逼单金句 · 福袋口播 · 风险提示（所有产品通用）</div></div>
+  </div>
+
+  <div class="prod">
+    <div class="prod-head"><span class="prod-no">通用</span><span class="prod-name">兑换方式 · 五步口播（全产品通用）</span><span class="prod-meta"><span class="pill o">高频</span></span></div>
+    <div class="prod-body">
+      <details class="blk" open>
+        <summary>主播 B：兑换五步标准口播 <span class="blk-tip">— 被问“怎么兑换”直接照读</span></summary>
+        <div class="blk-body">主播 B：很多宝宝问买到后怎么兑换，我一步一步讲，全程跟着抖音订单操作，超简单：
+① 打开抖音【我的订单】，找到咱们东航的订单，点「去使用」
+② 进入页面后，在「去使用」的右上角点「券码信息」，下方会弹出专属券码弹窗，直接点复制就好
+③ 再点页面中间的「去使用」进入「抖音兑换专区」
+④ 粘贴兑换码，点「立即兑换」完成激活
+这里跟大家强调：这一步只是绑定激活，不是出票！激活后就能查所有可兑航线和日期，有合适的就付机建燃油费出票，没有的话，哪怕激活了只要没出票，不影响退款
+⑤ 激活后点「卡券查询」-「商品兑换」，选航线和乘机人，付机建燃油就出票完成啦！
+热门航线座位有限，确定行程的宝宝尽早兑换哦～</div>
+      </details>
+    </div>
+  </div>
+
+  <div class="prod p-orange">
+    <div class="prod-head"><span class="prod-no">通用</span><span class="prod-name">退款保障 · 三重兜底话术</span><span class="prod-meta"><span class="pill o">消除顾虑</span></span></div>
+    <div class="prod-body">
+      <details class="blk">
+        <summary>国内单次卡版本（全国版 / 区域版）</summary>
+        <div class="blk-body">✅ 抖音兑换码没激活，全额退
+✅ 激活后没兑换机票，全额退
+✅ 航班计划起飞前 48 小时（含）之外提交自愿退票，权益次数直接返还
+✅ 哪怕过期忘了用，系统会自动给你全额退款，不用你手动操作！</div>
+      </details>
+      <details class="blk">
+        <summary>国际单次卡版本</summary>
+        <div class="blk-body">✅ 抖音兑换码没激活、激活后没兑换没出票，都能全额退，哪怕过期忘了用，系统也会自动全额退，不用你手动操作！
+✅ 已经出票的：航班计划起飞前 7 天（168 小时）之外自愿退票，返还权益次数，仅退还除燃油费外的其他税费，燃油费不退；起飞前不足 7 天退票，不返还权益次数，也仅退还除燃油费外的其他税费</div>
+      </details>
+      <details class="blk">
+        <summary>趣游卡 / 直减券版本</summary>
+        <div class="blk-body">未激活可全退、激活后未兑票可全退、未按时绑定或到期未使用自动退 —— 三重保障兜底！（券包：未激活可全退、激活后未进行兑票可全退、产品到期后全部未使用自动退）
+
+只要抵用券 / 权益次数没减少（还是对应档位的总次数），就能全额退款，先囤锁定优惠，没计划也不亏！</div>
+      </details>
+      <details class="blk">
+        <summary>产品规则串讲版（主播 A + 主播 B 对播）</summary>
+        <div class="blk-body">主播 B：退款规则也很简单：
+✅ 没激活、没兑票、没出票，都能全额退，过期自动退
+✅ 已经出票的，航班起飞前 48 小时外退票，权益返还；不足 48 小时权益不返还
+✅ 产品不支持自愿改航班，也不能签转东上航以外的航司
+
+主播 A：最后说下使用人规则：2 周岁以上都能用，2-12 岁的儿童需要成人陪同，不能单独出票；兑换时先兑大人的票，再兑儿童票，兑换界面绑定大人票号就行。
+
+主播 B：卡价不含机建燃油，换票时另行支付；行程结束后可以在东航抖音服务专区开电子发票，有任何问题打东航客服热线 95530 就可以啦。</div>
+      </details>
+    </div>
+  </div>
+
+  <div class="prod p-pink">
+    <div class="prod-head"><span class="prod-no">通用</span><span class="prod-name">逼单 · 通用金句</span><span class="prod-meta"><span class="pill p">下播前用</span></span></div>
+    <div class="prod-body">
+      <details class="blk">
+        <summary>为什么现在必须下单（主播 A）</summary>
+        <div class="blk-body">主播 A：为什么催大家现在下单？因为每个航班的可兑座位是有限的，先拍先兑先占座！热门航线的座位本来就不多，手慢可能就兑不到你想要的日期了！</div>
+      </details>
+      <details class="blk">
+        <summary>下播即失效 + 囤多不囤少（主播 A + 主播 B）</summary>
+        <div class="blk-body">主播 A：再跟大家说一下，咱们这个专属活动不是每天都有的，下播之后这个专属链接就下架了，就没有专属优惠价了！
+主播 B：真的建议大家囤多不囤少，这个卡自己用、送家人朋友都合适，券码直接复制粘贴给朋友就能用，非常方便；哪怕之后哪天想临时出行，提前 3 天兑换就能安排上！</div>
+      </details>
+      <details class="blk">
+        <summary>犹豫型观众收尾（主播 B）</summary>
+        <div class="blk-body">主播 B：很多宝贝可能还在犹豫对不对？我们今天是东航官方直播间，售前有服务，售后有保障，大家可以放心拍：只要完全未使用，都能全额退，过期也自动退，所以还在犹豫、或者出行日期还没定好的宝贝都可以放心先囤。</div>
+      </details>
+      <details class="blk">
+        <summary>让后台弹链接（主播 A）</summary>
+        <div class="blk-body">主播 A：来，我看很多宝贝都心动了，咱们机票的可兑数量是有限的，先到先得！我已经看到很多朋友在弹幕上准备下单了，我们后台老师把对应商品链接弹一下，方便大家精准下单，有出行计划的宝贝今天不要错过直播间的福利哦。</div>
+      </details>
+      <details class="blk">
+        <summary>塑品 · 东航品牌背书（通用）</summary>
+        <div class="blk-body">主播 B：而且咱们的乘机体验非常有保障，宽敞舒适的座舱环境 + 全程标准服务，行李额、会员礼遇全部和正价经济舱机票同等待遇，从登机到落地，让你全程享受舒心旅程，价格有优惠，服务不打折！更重要的是，今天是东航官方直播间，所有的改退政策、使用规则，主播都会给大家讲得明明白白，让你买得放心、用得安心！</div>
+      </details>
+    </div>
+  </div>
+
+  <div class="prod">
+    <div class="prod-head"><span class="prod-no">通用</span><span class="prod-name">风险提示 · 必讲话术</span><span class="prod-meta"><span class="pill">合规</span></span></div>
+    <div class="prod-body">
+      <details class="blk">
+        <summary>机会型产品风险提示（趣游卡 / 单次卡等）</summary>
+        <div class="blk-body">风险提示：并非所有航线及航班在您兑换的时候都有可兑座位，可能存在您想要的航线及航班不可兑的情况。
+
+这是机会型产品，并非所有航线及航班在兑换时都有可兑座位，可能存在你想要的航线及航班不可兑的情况，具体以实际查询为主哦！</div>
+      </details>
+      <details class="blk">
+        <summary>航线以实时查询为准（通用提醒）</summary>
+        <div class="blk-body">提醒下各位朋友，页面展示的航线仅作参考，不同时段、淡旺季的可兑换座位和航线都会有调整，大家一定要以兑换专区实时查询的内容为准哦。大家可以先通过详情页简单浏览参考，实际可兑换航线请以专区查询为准。</div>
+      </details>
+    </div>
+  </div>
+
+  <div class="prod p-orange">
+    <div class="prod-head"><span class="prod-no">福袋</span><span class="prod-name">福袋口播（每 45 分钟 / 人数破整万）</span><span class="prod-meta"><span class="pill o">本场 ≤ 8 个</span></span></div>
+    <div class="prod-body">
+      <details class="blk">
+        <summary>45mins · 国博联名海晏河清尊立体冰箱贴</summary>
+        <div class="blk-body">主播 A：直播间专属福利来啦！今天我们给大家赞助了国家博物馆联名海晏河清尊立体冰箱贴，单款价值 59元，不用下单，留在直播间就能免费抽！
+主播 B：我们今天全天不定时开奖，本轮共有8个福袋，不要走开，可以在直播间点点小互动就能参与，中奖名额非常多！
+主播 A：想要抽联名冰箱贴的宝贝别中途走开，我们随时开奖，也可以分享给亲朋好友一起参与哦！</div>
+      </details>
+      <details class="blk">
+        <summary>人数破w · 加发一轮</summary>
+        <div class="blk-body">主播 A：本轮给大家安排国家博物馆联名冰箱贴专属福袋福利，不用下单，左上角点击关注，左上角点击福袋参与活动！留在直播间就能参与抽奖！
+主播 B：大家别走开，坐飞机上网的福利免费送，蹲好直播间别错过！也可以分享给亲朋好友一起参与哦！</div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 3. 产品话术库 ===================== -->
+<section id="s3">
+  <div class="sec-head">
+    <div class="sec-num">3</div>
+    <div><h2>产品话术库</h2><div class="sub">按链接号排列 · 点开即用 · 全部脚本原文</div></div>
+  </div>
+
+  <div class="filters" id="filters">
+    <button class="fbtn on" data-cat="all">全部产品</button>
+    <button class="fbtn" data-cat="domestic">国内单次卡</button>
+    <button class="fbtn" data-cat="intl">国际单次卡</button>
+    <button class="fbtn" data-cat="quyou">趣游卡系列</button>
+    <button class="fbtn" data-cat="coupon">券类（直减/膨胀）</button>
+    <button class="fbtn" data-cat="rights">权益类（国博/云游/Wi-Fi/贵宾厅）</button>
+  </div>
+
+  <!-- ========== 国博研学卡 ========== -->
+  <div class="prod" id="p-guobo" data-cat="rights">
+    <div class="prod-head">
+      <span class="prod-no">1 号</span>
+      <span class="prod-name">国博研学卡</span>
+      <span class="prod-meta"><span class="price">888 元</span><span class="pill">888档至10月8日</span></span>
+    </div>
+    <div class="src">脚本原标题：国博研学卡 1号<br>888</div>
+      <div class="prod-body">
+      <details class="blk">
+        <summary>一、产品概况</summary>
+        <div class="blk-body small">1.机票权益
+东上航实际承运北京进出港单程国内直达航班经济舱机票兑换权益1次。
+2.服务权益
+本期权益为中国国家博物馆《叩问永恒——庞贝的探索与发掘》特展门票1张，适用日期截至2026年10月09日。
+3.商品售价：888元，以上机票兑换权益不含基建、燃油附加费。
+4.适用航班：东上航实际承运的北京进出港单程国内直达航班（不含代码共享航班）。
+5.适用人群：2周岁（含）以上的儿童及成人，儿童可在12周岁及以上乘机人完成机票购买后兑换。
+6.购买时限：上线之日起-2026年10月08日。
+7.抖音兑换码有效期：购买之日起30个自然日内。
+8.航班兑换日期及航线（挑选部分读）：
+
+888档：2026年6月26日-8月23日、9月25日-10月8日。（北京出发--上海、昆明、武汉、重庆、深圳、兰州、宁波、无锡、南昌、成都、长春、哈尔滨、常州、海口、贵阳、乌鲁木齐、西宁、珠海、银川、北海、昭通、库尔勒、阿勒泰、南京、嘉兴、西安；；；上海、昆明、武汉、宁波、无锡、南昌、成都、长春、哈尔滨、常州、汕头、南宁、银川、西双版纳、芒市、北海、嘉峪关、昭通、白山、阿勒泰、南京、嘉兴、西安--北京到达）
+9.国博特展门票兑换日期：上线之日起-2026年10月09日。</div>
+      </details>
+      <details class="blk">
+        <summary>二、购买规则 + 三、机票券权益使用规则</summary>
+        <div class="blk-body small">二、购买规则
+1.购买规则:每个账户限购10套产品。
+2.退款规则：购买后如全部权益未使用（包含权益返还），可申请全额退款，如已使用（包含部分已使用）不可退款。如全部权益未在使用有效期内使用，款项将自动退还至购买人。
+三、机票券权益使用规则
+1.使用有效期：抖音兑换码兑换之日起30天内。
+2.适用舱位：经济舱（不含超级经济舱），产品名称为“国博研学卡”，具体适用航线及可兑航班请以点击“兑换”后的实际查询结果为准，行李规则同常规经济舱。
+风险提示：并非所有航线及航班在您兑换的时候都有可兑座位，可能存在您想要的航线及航班不可兑的情况。
+3.兑换时限：需至少提前3个自然日（含）以上兑换（如9月28日航班最晚应在9月25日兑换）
+4.兑票渠道：东航APP、小程序。
+5.旅行税费：乘机人订座换票时另行支付机建及燃油附加费（不可使用易享券抵扣），可开具电子发票，不支持开具电子行程单。
+6.变更退票：不得自愿变更，不得自愿签转至非东/上航实际承运的航班。
+退票退还机建及燃油附加费，航班计划起飞前48小时（含）之外提交自愿退票，返还权益次数，反之不返还权益次数；非自愿退票均返还权益次数。
+7.会员礼遇：同常规客票。</div>
+      </details>
+      <details class="blk">
+        <summary>四、国博研学权益使用规则 + 五、报销凭证</summary>
+        <div class="blk-body small">四、国博研学权益使用规则
+1.发放方式：首次兑换机票后，将发送短信至产品抖音兑换码激活人手机，抖音兑换码激活人可通过短信链接或登录东航APP&gt;我的&gt;卡券里预约国博特展参观。国博卡券将绑定至机票券首次兑换出票时的旅客，不可变更。
+2.兑换券有效期：自门票获取之日起90天内有效，如过期未使用，则视为旅客主动放弃权益，过期不退。
+3.预约时限：购买人可预约卡券到账90天内中国国家博物馆特展参观（如需预约次日参观，需在提前一天的上午10点前操作预约）。
+4.预约变更：在兑换券有效期内如需更改或取消预约参观，请至少于入馆前一天上午10点前通过原短信链接或东航APP&gt;我的&gt;全部订单里更改或取消，最多可更改参观日期2次，最终预约结果将通过短信通知。
+五、报销凭证
+可在使用且不可退款后（如已成行），通过东方航空移动端（东方航空APP、微信小程序）抖音服务专区申请开具电子发票，发票抬头可选择企业或个人，个人抬头为抖音兑换码激活人，发票一经开具不得变更。</div>
+      </details>
+      <details class="blk">
+        <summary>兑换方式（主播 B）</summary>
+        <div class="blk-body">主播 B：很多宝宝问买到后怎么兑换，我一步一步讲，全程跟着抖音订单操作，超简单：
+① 打开抖音【我的订单】，找到咱们东航的订单，点「去使用」
+② 进入页面后，在「去使用」的右上角点「券码信息」，下方会弹出专属券码弹窗，直接点复制就好
+③ 再点页面中间的「去使用」进入「抖音兑换专区」
+④ 粘贴兑换码，点「立即兑换」完成激活
+这里跟大家强调：这一步只是绑定激活，不是出票！激活后就能查所有可兑航线和日期，有合适的就付机建燃油费出票，没有的话，哪怕激活了只要没出票，不影响退款
+⑤ 激活后点「卡券查询」-「商品兑换」，选航线和乘机人，付机建燃油就出票完成啦！
+热门航线座位有限，确定行程的宝宝尽早兑换哦～</div>
+      </details>
+    </div>
+  </div>
+
+  <!-- ========== 全国单次卡（071-924） ========== -->
+  <div class="prod" id="p-quanguo" data-cat="domestic">
+    <div class="prod-head">
+      <span class="prod-no">2-6 号</span>
+      <span class="prod-name">全国单次卡（071-924）· 国内经济舱单次卡</span>
+      <span class="prod-meta"><span class="price">329 / 429 / 599 / 899 / 1099</span><span class="pill">9.21-10.24</span></span>
+    </div>
+    <div class="src">脚本原标题：全国单次卡产品引入 2-6号</div>
+      <div class="prod-body">
+      <details class="blk" open>
+        <summary>产品引入 <span class="blk-tip">— 主播 A + 主播 B 对播开场</span></summary>
+        <div class="blk-body">主播 A：哈喽宝宝们！今天直播间除了刚介绍的全国次卡，还有一款宝藏单品要重点跟大家分享！
+主播 B：好多家人在弹幕问，想要出行专属优惠，想要性价比高的国内机票福利，今天这款就刚好适配大家！
+主播 A：是不是不少宝贝近期打算出门游玩，随便刷一趟国内机票，价格都不便宜，每次买票都要反复比价，特别纠结？
+主播 B 确实，不管去哪的国内航班，日常票价都不低，想出门玩光机票就要花不少，看着都心疼！
+主播 A：所以今天这款国内单次卡福利来了，重点说下，暑期有国内出行计划的朋友，一定要看过来，直播间到手 329 起！
+主播 B：平时单独买一张机票动辄大几百上千，现在囤这张卡直接省下一笔开销，省下来的钱吃美食、住好酒店都很香！
+主播 A：只要你近期有国内出行安排，计划近期乘机，这款卡就特别适合你，现在恰逢暑期专场，活动价格十分划算！</div>
+      </details>
+      <details class="blk">
+        <summary>产品介绍（含西安进出港登机牌礼遇 + 航线）</summary>
+        <div class="blk-body">产品介绍 即日起到10月24号
+
+西安进出港可以加登机牌礼遇：还有多重登机牌礼遇，具体以东航APP购票舱选界面的登机牌礼遇（陕西）页面呈现规则为准，目前覆盖西安SKP、砂之船奥莱、中大国际、万象城、MOMOPARK、唐乐宫、风雷影视基地、周原景区、爱乐剧管等等等专属登机牌礼遇，从吃美食、逛景区、到购物看电影看话剧，全部都有专属礼遇...</div>
+      </details>
+      <details class="blk">
+        <summary>产品介绍 · 主播口播 + 各档位航线示例</summary>
+        <div class="blk-body">【介绍国内经济舱单次卡航线，产品链接页面查看详情】各位主播老师可以重点推荐自己的地区出发航线。
+主播A：咱们的航线选择特别多，覆盖了不少从【西安、上海、成都、重庆、南京、三亚、大理、长春、哈尔滨等】出发或者抵达的国内热门线路。提醒下各位朋友，页面展示的航线仅作参考，不同时段、淡旺季的可兑换座位和航线都会有调整，大家一定要以兑换专区实时查询的内容为准哦。大家可以先通过详情页简单浏览参考，实际可兑换航线请以专区查询为准。
+
+主播B：产品分为329/429/599/899/1099五个价位，档位一目了然，价格不同航线选择不同，大家根据自己的出行计划挑选就行。还有一点可以放心，购买后只要机票没有出票，不管有没有进行兑换，都支持办理退款。
+
+例：
+329：西安出发--合肥、宁波、济南、贵阳、西宁、南京；；上海出发--广州、武汉、长沙、厦门、大连、济南、郑州、汕头、福州、天津、宜昌、泉州、井冈山、张家界、邯郸、阜阳、临沂、吕梁、唐山、梅州
+
+429：西安出发--上海、广州、青岛、杭州、宁波、大连、揭阳、珠海、义乌、泉州、拉萨、南京；；上海出发--广州、三亚、长沙、厦门、大连、济南、郑州、哈尔滨、烟台、北京、揭阳、贵阳、西宁、福州、南宁、银川、天津、湛江、琼海、泉州、井冈山、张家界、秦皇岛、惠州、安康、忻州、延安、永州、梅州、西安
+
+599：西安--三亚、南昌、长春、哈尔滨、敦煌、大理、台州、拉萨、博乐；；上海--广州、兰州、三亚、成都、厦门、长春、哈尔滨、海口、揭阳、贵阳、西宁、福州、南宁、银川、湛江、柳州、佳木斯、丽江、宜宾、临沂、达州、西安、西昌
+
+899：西安--广州、拉萨、喀什、伊宁、库尔勒、阿勒泰、阿克苏；；上海--三亚、成都、哈尔滨、海口、揭阳、乌鲁木齐、大理；；重庆--昆明、北京；；成都--上海、温州、芒市；；长沙--哈尔滨、大理
+
+1099：西安--喀什、伊宁、库尔勒、阿勒泰；；上海--三亚、海口、乌鲁木齐；；深圳--北京；；三亚--上海；；广州--拉萨</div>
+      </details>
+      <details class="blk">
+        <summary>塑品（逼单）· 第一段</summary>
+        <div class="blk-body">主播 A：而且跟大家说一下为什么选东航的这款次卡 —— 我们东航是三大航司之一，这款产品覆盖全国热门目的地的优质航线，都是东上航实际承运的航班，不管你是商务出行还是旅游散心，主流出行需求基本都能覆盖！
+主播 B：而且咱们的乘机体验非常有保障，宽敞舒适的座舱环境 + 全程标准服务，行李额、会员礼遇全部和正价经济舱机票同等待遇，从登机到落地，让你全程享受舒心旅程，价格有优惠，服务不打折！更重要的是，今天是东航官方直播间，所有的改退政策、使用规则，主播都会给大家讲得明明白白，让你买得放心、用得安心！
+主播 A：家人们都知道机票价格是实时浮动的，今天直播间给到的 329 元起的价格，都是咱们 西安专场的专属活动价，下播后就没有这个专属链接了！我看公屏上很多家人担心 "买了以后行程有变怎么办"，大家可以放心拍：
+✅ 抖音兑换码没激活，全额退
+✅ 激活后没兑换机票，全额退
+✅ 航班计划起飞前 48 小时（含）之外提交自愿退票，权益次数直接返还
+✅ 哪怕过期忘了用，系统会自动给你全额退款，不用你手动操作！
+主播 B：没错，给大家算清楚这笔账：你今天拍下来，相当于用 329 元起的价格，就可以拿下现在就可以使用的机票优惠权益！哪怕真的没用上，只要机票未出票，都可以全额退款，一分钱损失都没有，放心囤就好！已经下单的朋友，也可以在公屏分享你想去的目的地，给其他家人做参考！</div>
+      </details>
+      <details class="blk">
+        <summary>塑品（逼单）· 第二段（细节 + 儿童）</summary>
+        <div class="blk-body">主播 A：为什么催大家现在下单？因为每个航班的可兑座位是有限的，先拍先兑先占座！热门航线的座位本来就不多，手慢可能就兑不到你想要的日期了！
+主播 B：还有家人问带娃能不能用？统一回复：2 周岁以上的乘客都能兑换，2-12 岁的儿童不能单独出行，需要有成人陪同，一家老小出行都能囤，拍几张就对应几个人的权益，适合家庭出行！
+主播 A：这里再给大家强调两个细节，避免大家有疑问：
+① 兑换非常方便：抖音小程序就能兑，至少提前 3 个自然日兑换就行，确定行程的情况下越早兑越好；
+② 今天的 329元起的价格，不含机建燃油费，机建燃油附加费是换票的时候另行支付，和你买正价机票的税费标准一样，都可以开电子发票，报销没有问题。
+主播 B：目前没有看到合适航班日期的宝贝们不要着急，咱们这个产品会不定期更新可兑航班日期，大家可以先囤卡锁价格，后续随时去兑换专区刷新查看，不同航线的可兑日期以兑换专区的实际查询为准，早拍早锁定优惠，下播就没这个价了！
+主播 A：锁到今年 暑假的出行低价、东航官方保障，还在犹豫的家人真的不用等了，赶紧点击下方黄色小房子下单，早拍早兑心仪的航班！</div>
+      </details>
+      <details class="blk">
+        <summary>互动（可根据评论做部分回复）</summary>
+        <div class="blk-body">1.问：包不包含机建燃油费？
+✅ 答：咱们的次卡不含机建燃油费哦，换票的时候另行支付就可以啦，国内近期机建燃油费有所下调，具体以实际查询为准。（8月5日起，国内800公里及以下40元；800公里以上70元）
+2.问：我带孩子可以买吗？
+✅ 答：可以的哦，2 周岁以上都能兑换～不过 2-12 岁的儿童需要成人陪同，不可单独出票，兑换时先兑换大人的票，再单独兑换儿童票，兑换界面有绑定大人姓名和票号的地方，填写进去就可以啦。如果您的儿童不足2周岁，需要拨打客服电话购买婴儿抱票。
+3.问：怎么查询航线？
+✅ 答：可以先看商品详情页做参考哦，详情页仅作参考，拍下后可以去抖音兑换专区查看实时可兑航线，没有合适的只要未出票都可以申请退款哦。
+4.问：买了查询航线没有想要的可以退吗？
+✅ 答：可以的哦，只要机票未出票，都可以申请全额退款，放心囤就好～</div>
+      </details>
+      <details class="blk">
+        <summary>产品规则（主播 A + 主播 B 串讲）</summary>
+        <div class="blk-body">主播 B：跟大家快速讲下核心规则，首先是兑换时间：咱们这款国内单次卡，抖音兑换码有效期是即日起至2026年10月24日；可兑航班是 即日起截至2026年10月24日，至少提前 3 个自然日兑换，确定行程越早兑越好。
+主播 A：然后是查航线的重点提醒：商品详情页的航线仅做参考，具体可兑的航班和日期，一定要以拍下后抖音兑换专区的实时查询为准，没有合适的只要没出票都能退，放心。
+主播 B：退款规则也很简单：
+✅ 没激活、没兑票、没出票，都能全额退，过期自动退
+✅ 已经出票的，航班起飞前 48 小时外退票，权益返还；不足 48 小时权益不返还
+✅ 产品不支持自愿改航班，也不能签转东上航以外的航司
+主播 A：最后说下使用人规则：2 周岁以上都能用，2-12 岁的儿童需要成人陪同，不能单独出票；兑换时先兑大人的票，再兑儿童票，兑换界面绑定大人票号就行。
+主播 B：卡价不含机建燃油，换票时另行支付；行程结束后可以在东航抖音服务专区开电子发票，有任何问题打客服电话 95530 就可以啦。</div>
+      </details>
+      <details class="blk">
+        <summary>兑换方式</summary>
+        <div class="blk-body">主播 B：很多宝宝问买到后怎么兑换，我一步一步讲，全程跟着抖音订单操作，超简单：
+① 打开抖音【我的订单】，找到咱们东航的订单，点「去使用」
+② 进入页面后，在「去使用」的右上角点「券码信息」，下方会弹出专属券码弹窗，直接点复制就好
+③ 再点页面中间的「去使用」进入「抖音兑换专区」
+④ 粘贴兑换码，点「立即兑换」完成激活
+这里跟大家强调：这一步只是绑定激活，不是出票！激活后就能查所有可兑航线和日期，有合适的就付机建燃油费出票，没有的话，哪怕激活了只要没出票，不影响退款
+⑤ 激活后点「卡券查询」-「商品兑换」，选航线和乘机人，付机建燃油就出票完成啦！
+热门航线座位有限，确定行程的宝宝尽早兑换哦～</div>
+      </details>
+      <details class="blk">
+        <summary>逼单（收尾）</summary>
+        <div class="blk-body">主播 A：再跟大家说一下，咱们这个 暑期专场活动不是每天都有的，下播之后这个专属链接就下架了，就没有 329 元起的专属优惠价了！
+主播 B：真的建议大家囤多不囤少，这个卡自己用、送家人朋友都合适，券码直接复制粘贴给朋友就能用，非常方便；哪怕之后哪天想临时出行，提前 3 天兑换就能安排上！
+主播 A：而且咱们的退款规则非常宽松，没激活、没兑票、没出票，都能全额退；就算已经出票了，只要距离航班起飞还有 48 小时以上，退票也能返还权益次数，全程没有任何损失，相当于锁住近期的出行低价！
+主播 B：每个航班的可兑座位都是有限的，先拍先囤先占座，热门航线手慢可能就兑不到心仪日期了！还没下单的家人赶紧点下方黄色小房子，早拍早安心！</div>
+      </details>
+    </div>
+  </div>
+
+  <!-- ========== 云游四季卡 ========== -->
+  <div class="prod p-pink" id="p-siji" data-cat="rights">
+    <div class="prod-head">
+      <span class="prod-no">7-8 号</span>
+      <span class="prod-name">云游四季卡（单程 / 往返）</span>
+      <span class="prod-meta"><span class="price">单程 539 / 往返 969</span><span class="pill p">18-23 周岁 或 55 周岁及以上</span></span>
+    </div>
+    <div class="src">脚本原标题：云游四季卡 7-8号<br>单程539<br>往返969</div>
+      <div class="prod-body">
+      <details class="blk">
+        <summary>一、产品概况（单程）</summary>
+        <div class="blk-body small">（一）机票权益：东上航实际承运进出港单程国内直达（不含中国港澳台地区）航班经济舱机票兑换权益1次。
+（二）增值服务权益
+1.陪伴旅行服务5折权益*1，适用于始发站地面引导服务：原价200元/人/航段，折后价100元/人/航段；全流程引导服务：原价300元/人/航段，折后价150元/人/航段。于经济舱机票兑换后生效，东航陪伴服务适用范围及规则细则详见产品权益页面；
+2.东航自营贵宾室5折优惠券*1张。
+3.权益说明
+（1）增值服务权益仅适用于产品乘机人本人当次使用，具体权益规则详见产品权益页面。
+（2）东航自营贵宾室5折券发放方式：兑换客票的对应航班起飞之日前一天10点发放至购买人账户。（如2026年10月31日的航班权益会在2026年10月30日发放优惠券和抵用券）。
+（三）商品售价：539元（不含机建、燃油费用）。增值服务权益售价按产品折扣另行计算。
+（四）适用人群：18至23周岁，或年满55周岁及以上旅客。
+（五）适用航线：可自行输入国内航线查询可兑换航班，最终以兑换专区内实际查询结果为准。
+（六）购买时限：即日起至2026年12月31日。 
+（七）适用航班日期：即日起至2026年12月31日（6月18日至8月31日、10月1日至10月7日除外）。                                                       
+*不同航线可兑日期不同，具体以实际查询为准。</div>
+      </details>
+      <details class="blk">
+        <summary>单程推荐航线</summary>
+        <div class="blk-body">单程推荐航线：
+
+西安出发--上海、重庆、青岛、杭州、合肥、温州、宁波、大连、北京、常州、乌鲁木齐、西宁、拉萨、淮安、南京、和田、库尔勒、阿勒泰、阿克苏、塔城...
+
+上海出发--昆明、广州、武汉、重庆、青岛、太原、杭州、兰州、合肥、温州、宁波、三亚、南昌、成都、长沙...
+
+北京出发--上海、昆明、武汉、重庆、兰州、南昌、成都、哈尔滨、常州、贵阳、乌鲁木齐、珠海、南宁、北海、嘉峪关、嘉兴...</div>
+      </details>
+      <details class="blk">
+        <summary>一、产品概况（往返）</summary>
+        <div class="blk-body small">（一）机票权益：东上航实际承运进出港往返国内直达（不含中国港澳台地区）航班经济舱机票兑换权益1次。
+（二）增值服务权益
+1.陪伴旅行服务5折权益*2，适用于始发站地面引导服务：原价200元/人/航段，折后价100元/人/航段；全流程引导服务：原价300元/人/航段，折后价150元/人/航段。于经济舱机票兑换后生效，东航陪伴服务适用范围及规则细则详见产品权益页面；
+2.东航自营贵宾室5折优惠券*2张。
+3.权益说明
+（1）增值服务权益仅适用于产品乘机人本人使用，具体权益规则详见产品权益页面。
+（2）东航自营贵宾室5折券发放方式：兑换客票的对应航班起飞之日前一天10点发放至购买人账户。（如2026年10月31日的航班权益会在2026年10月30日发放优惠券和抵用券）。
+（三）商品售价：969元（不含机建、燃油费用）。增值服务权益售价按产品折扣另行计算。
+（四）适用人群：18至23周岁，或年满55周岁及以上旅客。
+（五）适用航线：可自行输入国内航线查询可兑换航班，最终以兑换专区内实际查询结果为准。
+（六）购买时限：即日起至2026年12月31日。 
+（七）适用航班日期：即日起至2026年12月31日（6月18日至8月31日、10月1日至10月7日除外）。                                                             
+*不同航线可兑日期不同，具体以实际查询为准。</div>
+      </details>
+      <details class="blk">
+        <summary>往返推荐航线</summary>
+        <div class="blk-body">往返推荐航线：
+
+西安出发--上海、重庆、青岛、杭州、合肥、温州、宁波、大连、北京、常州、乌鲁木齐、西宁、淮安、喀什、、伊宁、和田、库尔勒、阿勒泰、金昌、阿克苏、塔城、南京、嘉兴...
+
+上海出发--昆明、广州、武汉、重庆、青岛、太原、杭州、兰州、合肥、温州、宁波、三亚、南昌、成都、长沙、北京、海口、大理、丽江、西安...
+
+北京出发--上海、昆明、武汉、重庆、兰州、南昌、成都、哈尔滨、珠海、南宁、北海、嘉兴...
+
+成都出发--上海、武汉、青岛、杭州、兰州、合肥、北京、珠海、芒市、泉州、腾冲、临沧、南京
+
+广州出发--上海、重庆、兰州、合肥、无锡、沈阳、拉萨、南京...</div>
+      </details>
+      <details class="blk">
+        <summary>二、购买规则 + 三、机票权益使用规则 + 四、报销凭证（单程）</summary>
+        <div class="blk-body small">二、购买规则（单程）
+1.购买规则:每个会员账户限购10套产品。
+2.退款规则：购买后如未使用（包含权益返还），可申请全额退款，如已使用不可退款。如未在使用有效期内（有效期至购买之日起30天内）使用，款项将自动退还至购买人。
+三、机票权益使用规则
+1.可兑舱位：经济舱（不含超级经济舱），产品名称为“云游四季卡”，具体适用航线及可兑航班请以点击“兑换”后的实际查询结果为准，行李规则同常规经济舱。
+风险提示：并非所有航线及航班在您兑换的时候都有可兑座位，可能存在您想要的航线及航班不可兑的情况。
+2.机票券使用有效期：购买之日起30天内。
+3.兑票渠道：东航APP、小程序。
+4.旅行税费：乘机人订座换票时另行支付机建及燃油附加费（不可使用易享券抵扣），可开具电子发票，不支持开具电子行程单。
+5.变更退票：不得自愿变更，不得自愿签转至非东/上航实际承运的航班。
+退票退还机建及燃油附加费。客票未乘坐时，航班计划起飞前48小时（含）之外提交自愿退票，返还权益次数，反之不返还权益次数，非自愿退票均返还权益次数；客票已乘坐时，退票不返还权益次数。
+6.会员礼遇：同常规客票。
+四、报销凭证
+可在使用且不可退款后（如已成行），通过东航APP开具电子发票，发票抬头为乘机人本人或企业。</div>
+      </details>
+      <details class="blk">
+        <summary>二、购买规则 + 三、机票权益使用规则 + 四、报销凭证（往返）</summary>
+        <div class="blk-body small">二、购买规则（往返）
+1.购买规则:每个会员账户限购10套产品。
+2.退款规则：购买后如未使用（包含权益返还），可申请全额退款，如已使用不可退款。如未在使用有效期内（有效期至购买之日起30天内）使用，款项将自动退还至购买人。
+三、机票权益使用规则
+1.可兑舱位：经济舱（不含超级经济舱），产品名称为“云游四季卡”，具体适用航线及可兑航班请以点击“兑换”后的实际查询结果为准，行李规则同常规经济舱。
+风险提示：并非所有航线及航班在您兑换的时候都有可兑座位，可能存在您想要的航线及航班不可兑的情况。
+2.机票券使用有效期：购买之日起30天内。
+3.兑票渠道：东航APP、小程序。
+4.旅行税费：乘机人订座换票时另行支付机建及燃油附加费（不可使用易享券抵扣），可开具电子发票，不支持开具电子行程单。
+5.变更退票：不得自愿变更，不得自愿签转至非东/上航实际承运的航班。
+退票退还机建及燃油附加费。往返客票均未乘坐时，航班计划起飞前48小时（含）之外提交自愿退票，返还权益次数，反之不返还权益次数，非自愿退票均返还权益次数；往返客票部分已乘坐时，退票均不返还权益次数。
+6.会员礼遇：同常规客票。
+四、报销凭证
+可在使用且不可退款后（如已成行），通过东航APP开具电子发票，发票抬头为乘机人本人或企业。</div>
+      </details>
+    </div>
+  </div>
+  <!-- ========== 国际单次卡 ========== -->
+  <div class="prod" id="p-guoji" data-cat="intl">
+    <div class="prod-head">
+      <span class="prod-no">9-19 号</span>
+      <span class="prod-name">国际单次卡（经济舱 9-15 / 公务舱 16-19）</span>
+      <span class="prod-meta"><span class="price">300/400/500/600/800/1000/2000 · 1600/2000/8000/11000</span><span class="pill">至 2026.12.31</span></span>
+    </div>
+    <div class="src">脚本原标题：国际单次卡产品引入（9-15号链接）<br>国际公务舱单次卡 16-19号</div>
+      <div class="prod-body">
+      <details class="blk" open>
+        <summary>产品引入 <span class="blk-tip">— 主播 A + 主播 B 开场</span></summary>
+        <div class="blk-body">主播 A：哈喽哈喽！新进直播间的宝宝们先停留一下！今天直播间给大家带来的是东航的国际出行专属福利，真的非常划算！
+主播 B：没错！有国际出行计划的宝宝都知道，平时咱们买一张国际机票，动辄几千上万是不是？今天直播间的价格，真的会让大家惊喜！
+主播 A：有没有宝宝跟我一样，计划出国玩、留学或者探亲，但是一看到国际机票价格就纠结半天的？每次买票都要翻好几个地方反复比价对不对？
+主播 B：太懂这种感受了！我之前临时要去东南亚，提前一周买票，那价格直接涨了一倍，给我心疼坏了！要是当时有今天这个卡，能省老多钱了！
+主播 A：所以今天直播间真的来对了！东航专门给大家准备的 —— 国际单次卡！什么概念呢？就是一张国际单程机票，今天在咱们直播间 300 元起，还有公务舱可以选！并且公务舱增加至4个档位，即日起至今年12月31日的航班都能兑换！</div>
+      </details>
+      <details class="blk">
+        <summary>目前官网可查可兑换到的实际情况（目的地清单）</summary>
+        <div class="blk-body">目前官网可查可兑换到的实际情况：
+经济舱：
+300档国际及地区目的地：中国澳门、吉隆坡、万象、曼谷、新加坡、琅勃拉邦
+400档国际及地区目的地：中国澳门、槟城、哥打京那巴鲁、吉隆坡、金边、曼谷、首尔、新加坡、中国香港
+500档国际及地区目的地：中国澳门、富国岛、河内、胡志明市、吉隆坡、金边、曼谷、马尼拉、普吉岛、清迈、万象、中国香港
+600档国际及地区目的地：富国岛、新加坡
+800档国际及地区目的地：都柏林、墨尔本、悉尼
+1000档国际及地区目的地：阿德莱德、布达佩斯、巴黎、布里斯班、科伦坡、莫斯科、维也纳、伊斯坦布尔
+2000档国际及地区目的地：布达佩斯、法兰克福、罗马、伦敦、米兰
+
+公务舱：
+1600目的地：中国香港
+2000目的地：达卡、富国岛、哥打京那巴鲁、河内、胡志明市、加德满都、加尔各答、吉隆坡、金边、科伦坡、琅勃拉邦、曼德勒、曼谷、普吉岛、清迈、万象、暹粒
+8000目的地：悉尼、墨尔本
+11000目的地：都柏林</div>
+      </details>
+      <details class="blk">
+        <summary>引入 · 第二段（算账 + 场景）</summary>
+        <div class="blk-body">主播 B：真的很划算！而且是东航大航司，服务有保障，国际出行更安心！
+主播 A：我给大家算一算啊：平时飞个东南亚、澳洲的国际航线，随便一张机票也要几千吧？今天这个价格，相当于直接给大家省下大几千！省下来的钱多玩两个景点，多买点东西，多香啊！
+主播 B：而且特别适合那种近期有国际出行计划的宝宝！不管是商务出差、留学、探亲还是出国度假，囤一张放在那里，想用的时候就用！
+主播 A：没错！现在给到大家的都是专属活动价！有国际出行打算的宝宝，今天真的可以好好了解一下！</div>
+      </details>
+      <details class="blk">
+        <summary>产品介绍</summary>
+        <div class="blk-body">【介绍国际单次卡航线，产品链接页面查看详情】
+主播 A：咱们的航线选择特别多，覆盖了国内出发飞往曼谷、新加坡、悉尼、伦敦等热门国际目的地的线路。提醒下各位朋友，页面展示的航线仅作参考，不同时段的可兑换座位和航线都会有调整，大家一定要以兑换专区实时查询的内容为准哦。大家可以先通过详情页简单浏览参考，实际可兑换航线请以专区查询为准。
+主播 B：产品分为 300/400/500/600/800/1000/2000 元的经济舱档位，还有 1600/2000/8000/11000元的公务舱档位，档位一目了然，价格不同航线选择不同，大家根据自己的出行计划挑选就行。还有一点可以放心，购买后只要机票没有出票，不管有没有进行兑换，都支持办理全额退款。</div>
+      </details>
+      <details class="blk">
+        <summary>塑品（逼单）· 第一段</summary>
+        <div class="blk-body">主播 A：而且跟大家说一下为什么选东航的这款国际次卡 —— 我们东航是三大航司之一，这款产品覆盖曼谷、新加坡、悉尼、伦敦等热门国际目的地的优质航线，都是东上航实际承运的国际航班，不管你是留学、探亲、商务出差还是出国度假，主流国际出行需求基本都能覆盖！还有经济舱、公务舱两种选择，满足大家不同的出行需求！
+主播 B：而且咱们的乘机体验非常有保障，宽敞舒适的座舱环境 + 全程标准服务，行李额、常规会员礼遇全部和正价机票同等待遇，从登机到落地，让你全程享受舒心旅程，价格有优惠，服务不打折！更重要的是，今天是东航官方直播间，所有的改退政策、使用规则，主播都会给大家讲得明明白白，让你买得放心、用得安心！
+主播 A：家人们都知道国际机票价格浮动特别大，今天直播间给到的 300 元起的价格，都是咱们专场的专属活动价，下播后就没有这个专属链接了！我把完整的退款退改规则跟大家说清楚，避免大家有疑问：
+✅ 抖音兑换码没激活、激活后没兑换没出票，都能全额退，哪怕过期忘了用，系统也会自动全额退，不用你手动操作！
+✅ 已经出票的：航班计划起飞前 7 天（168 小时）之外自愿退票，返还权益次数，仅退还除燃油费外的其他税费，燃油费不退；起飞前不足 7 天退票，不返还权益次数，也仅退还除燃油费外的其他税费
+主播 B：没错，给大家算清楚这笔账：你今天拍下来，相当于用 300 元起的价格，拿到国际出行的优惠机票！哪怕真的没用上，只要机票未出票，都可以全额退款，一分钱损失都没有，放心囤货就好！已经下单的朋友，也可以在公屏分享你想去的国际目的地，给其他家人做参考！</div>
+      </details>
+      <details class="blk">
+        <summary>塑品（逼单）· 第二段（细节 + 儿童）</summary>
+        <div class="blk-body">主播 A：为什么催大家现在下单？因为每个国际航班的可兑座位是有限的，先拍先兑先占座！热门航线比如飞曼谷、新加坡、悉尼的航班，座位本来就不多，手慢可能就兑不到你想要的日期了！
+主播 B：还有家人问带娃能不能用？统一回复：2 周岁以上的乘客都能兑换，2-12 岁的儿童需要和成人在同一订单内兑换，需要成人陪同出行，家庭出国游也能囤，非常合适！
+主播 A：这里再给大家强调两个细节，避免大家有疑问：
+① 兑换非常方便：抖音小程序就能兑，至少提前 7 个自然日兑换就行，确定行程的情况下越早兑越好；
+② 今天的 300 元起的价格，不含燃油和其他税费，税费是换票的时候另行支付的，税费标准都和正价机票一样，都可以开电子发票，报销没有问题。
+主播 B：目前没有看到合适航班日期的宝贝们不要着急，咱们这个产品的可兑航线会不定期更新，大家可以先囤卡锁价格，后续随时去兑换专区刷新查看，不同航线的可兑日期以兑换专区的实际查询为准，早拍早锁定优惠，下播就没这个价了！
+主播 A：东航官方保障，还在犹豫的家人真的不用等了，赶紧点击下方黄色小房子下单，早拍早兑心仪的国际航班！</div>
+      </details>
+      <details class="blk">
+        <summary>互动（可根据评论做部分回复）</summary>
+        <div class="blk-body">1. 问：包不包含燃油税费？/ 为什么兑换的时候让我再付钱？
+✅ 答：咱们的国际次卡不含燃油及其他税费哦，换票的时候需要另行支付，不同航线税费不同，税费标准和正价国际机票是一样的。具体在兑换时可以查看到，如果觉得不合适，不付费不出票是可以退款的。
+2. 问：我带孩子可以买吗？
+✅ 答：可以的哦，2 周岁以上都能兑换～不过 2-12 岁的儿童需要和成人在同一订单内兑换，需要成人陪同，不可单独出票；如果您的儿童不足 2 周岁，需要拨打客服电话购买婴儿票。
+3. 问：怎么查询航线？
+✅ 答：可以先看商品详情页做参考哦，详情页仅作参考，拍下后可以去抖音兑换专区查看实时可兑国际航线，没有合适的只要未出票都可以申请退款哦。
+4. 问：买了查询航线没有想要的可以退吗？
+✅ 答：可以的哦，只要机票未出票，不管有没有激活兑换，都可以申请全额退款，放心囤就好～</div>
+      </details>
+      <details class="blk">
+        <summary>产品规则（主播 A + 主播 B 串讲）</summary>
+        <div class="blk-body">主播 B：跟大家快速讲下核心规则，首先是兑换时间：咱们这款国际单次卡，抖音兑换码有效期到 2026 年 12 月 31 日，激活后 60 个自然日内使用；必须至少提前 7 个自然日兑换，确定行程的情况下越早兑越好。
+主播 A：然后是查航线的重点提醒：商品详情页的航线仅做参考，具体可兑的国际航班和日期，一定要以拍下后抖音兑换专区的实时查询为准，没有合适的只要没出票都能退，放心。
+主播 B：退款退改规则也跟大家说清楚：
+✅ 没激活、没兑票、没出票，都能全额退，过期自动退
+✅ 已经出票的：航班起飞前 7 天（168 小时）外自愿退票，返还权益次数，仅退还除燃油费外的其他税费；不足 7 天退票，不返还权益，也仅退还除燃油费外的其他税费
+✅ 产品不支持自愿改航班，也不能签转东上航以外的航司
+主播 A：最后说下使用人规则：2 周岁以上都能用，2-12 岁的儿童需要和成人在同一订单内兑换，需要成人陪同出行。
+主播 B：不含燃油及其他税费，换票时另行支付；行程结束后可以在东航抖音服务专区开电子发票，有任何问题打东航客服热线 95530 就可以啦。</div>
+      </details>
+      <details class="blk">
+        <summary>兑换方式</summary>
+        <div class="blk-body">主播 B：很多宝宝问买到后怎么兑换，我一步一步讲，全程跟着抖音订单操作，超简单：
+① 打开抖音【我的订单】，找到咱们东航的订单，点「去使用」
+② 进入页面后，在「去使用」的右上角点「券码信息」，下方会弹出专属券码弹窗，直接点复制就好
+③ 再点页面中间的「去使用」进入「抖音兑换专区」
+④ 粘贴兑换码，点「立即兑换」完成激活
+这里跟大家强调：这一步只是绑定激活，不是出票！激活后就能查所有可兑航线和日期，有合适的就付机建燃油税费出票，没有的话，哪怕激活了只要没出票，不影响退款
+⑤ 激活后点「卡券查询」-「商品兑换」，选航线和乘机人，付机建燃油就出票完成啦！
+热门航线座位有限，确定行程的宝宝尽早兑换哦～</div>
+      </details>
+      <details class="blk">
+        <summary>逼单（收尾）</summary>
+        <div class="blk-body">主播 A：再跟大家说一下，咱们这个专属活动不是每天都有的，下播之后这个专属链接就下架了，就没有 300 元起的专属优惠价了！
+主播 B：真的建议有国际出行计划的家人抓紧拍，国际机票价格浮动特别大，早囤卡早锁价，不用临时买票花冤枉钱，自己用、送家人朋友都合适！
+主播 A：而且咱们的退款规则非常宽松，没激活、没兑票、没出票，都能全额退。
+主播 B：每个国际航班的可兑座位都是有限的，先拍先兑先占座，热门国际航线手慢可能就兑不到心仪日期了！还没下单的家人赶紧点下方黄色小房子，早拍早安心！</div>
+      </details>
+    </div>
+  </div>
+
+  <!-- ========== 全国单次卡（区域版） ========== -->
+  <div class="prod p-orange" id="p-quyu" data-cat="domestic">
+    <div class="prod-head">
+      <span class="prod-no">20-63 号</span>
+      <span class="prod-name">全国单次卡（区域版）· 国内经济舱单次卡</span>
+      <span class="prod-meta"><span class="price">328 / 428 / 466 / 588</span><span class="pill o">11 个版本</span></span>
+    </div>
+    <div class="prod-body">
+      <details class="blk" open>
+        <summary>主要区分<br>20号到63号 区域版</summary>
+        <div class="blk-body">依次介绍，以下红色字部分和日期内容可替换，大规则不变
+
+1.上海版 8.22-10.24 （20-23号链接 328/428/466/588）
+
+2.山西版 8.25-10.24（24-27号链接 328/428/466/588）
+
+3.山东版 9.1-10.24（28-31号链接 328/428/466/588）
+
+4.湖北版 9.1-10.24（32-35号链接 328/428/466/588）
+
+5.广东版 6.12-9.28（36-39号链接 328/428/466/588）
+
+6.福建版 8.24-10.24（40-43号链接 328/428/466/588）
+
+7.云南版 8.7-10.24（44-47号链接 328/428/466/588）
+
+8.甘肃版 8.30-10.24（48-51号链接 328/428/466/588）
+
+9.安徽版 8.20-10.24（52-55号链接 328/428/466/588）
+
+10.川渝版 9.11-10.24（56-59号链接 328/428/466/588）
+
+11.江苏版 10.3-10.24（60-63号链接 328/428/466/588）</div>
+      </details>
+      <div class="note blue">主播提示：以下口播以「湖北版」为模板，把省份、城市、日期替换成对应区域即可，大规则不变。</div>
+      <details class="blk">
+        <summary>产品引入（模板 · 替换省份与城市）</summary>
+        <div class="blk-body">【引入产品 - 国内经济舱单次卡（区域版）】
+主播A：哈喽宝宝们！今天直播间又给大家带来一个特别的福利！专门给（湖北替换）的宝宝们准备的暑运专属福利！
+主播B：没错！划重点！马上到双节了！大家都知道出行的人多，机票价格相对平时都会高一些对不对？今天我们也给大家拿到了优惠价！
+主播A：（湖北）的朋友们看过来！（武汉、宜昌、襄阳、恩施）的宝宝们！暑假想出去玩的，想带孩子出去旅游的，想回老家的，是不是一看暑运机票就觉得不便宜？
+主播B：太懂这种感受了！每年中秋国庆前，机票价格大家都有体会，热门航线确实很难买到便宜的！
+主播A：所以今天真的是给大家带来福利了！（湖北）专属的国内经济舱单次卡，今天在咱们直播间，328起！
+主播B：这个价格真的很划算！大家平时买暑运机票，大多都要大几百吧？今天三百多就能飞！
+主播A：这个价格真的很难得！想从湖北出发去全国各地玩的宝宝们，今天这个卡真的能给大家省下不少！
+主播B：而且这可是专门给咱们（湖北）出发的宝宝准备的专属福利！平时这个价格确实不多见，更别说是出行高峰期了！
+主播A：所以（湖北）的宝宝们可以多多关注！暑假有出行计划的，今天这个价格真的很合适！</div>
+      </details>
+      <details class="blk">
+        <summary>产品介绍</summary>
+        <div class="blk-body">【介绍国内经济舱单次卡航线，产品链接页面查看详情】
+主播 A：咱们的航线选择特别多，覆盖了不少从（武汉、宜昌、襄阳、恩施）等（湖北城市）出发或者抵达的国内热门线路。而且这款卡特别给力，可兑航班是 即日起至 10月 24 日，整个暑运全时段都能兑！提醒下各位朋友，页面展示的航线仅作参考，不同时段的可兑换座位和航线都会有调整，大家一定要以兑换专区实时查询的内容为准哦。大家可以先通过详情页简单浏览参考，实际可兑换航线请以专区查询为准。
+主播 B：产品分为 328/428/466/588 元四个档位，价格不同航线选择不同，大家根据自己的出行计划挑选就行。还有一点可以放心，购买后只要机票没有出票，不管有没有进行兑换，都支持办理全额退款，放心囤就好。</div>
+      </details>
+      <details class="blk">
+        <summary>塑品（逼单）· 第一段</summary>
+        <div class="blk-body">主播 A：而且跟大家说一下为什么选东航的这款次卡 —— 我们东航是三大航司之一，这款是（湖北）进出港专属次卡，覆盖（武汉、宜昌、襄阳、恩施）出发的全国热门目的地优质航线，都是东上航实际承运的航班，可兑航班一直到 10 月 24 日，完整覆盖整个暑运旺季，不管你是商务出行还是旅游散心，主流出行需求基本都能覆盖！
+主播 B：而且咱们的乘机体验非常有保障，宽敞舒适的座舱环境 + 全程标准服务，行李额、会员礼遇全部和正价经济舱机票同等待遇，从登机到落地，让你全程享受舒心旅程，价格有优惠，服务不打折！更重要的是，今天是东航官方直播间，所有的改退政策、使用规则，主播都会给大家讲得明明白白，让你买得放心、用得安心！
+主播 A：家人们都知道机票价格是实时浮动的，今天直播间给到的 328 元起的价格，都是咱们专场的专属活动价，下播后就没有这个专属链接了！我看公屏上很多家人担心 "买了以后行程有变怎么办"，大家可以放心拍：
+✅ 抖音兑换码没激活，全额退
+✅ 激活后没兑换机票，全额退
+✅ 航班计划起飞前 48 小时（含）之外提交自愿退票，权益次数直接返还
+✅ 哪怕过期忘了用，系统会自动给你全额退款，不用你手动操作！
+主播 B：咱们今天这个价格真的很划算，328 元起就能把到 8 月 31 号的暑运机票给锁下来！而且没有囤货压力，哪怕最后没用到，只要没出票就能全额退，什么损失都没有，放心拍就完事！已经下单的家人，也可以在公屏说说你打算去哪，给大家种种草呀～</div>
+      </details>
+      <details class="blk">
+        <summary>塑品（逼单）· 第二段（带娃 / 学生 / 本地旅游）</summary>
+        <div class="blk-body">主播 A：为什么催大家现在下单？这款卡非常难得的是暑运期间也能兑换使用，不用额外加价！大家都知道暑运机票一天一个价，现在囤卡直接锁价，而且每个航班的可兑座位是有限的，先拍先兑先占座！暑运热门航线的座位本来就紧张，手慢可能就兑不到你想要的日期了！
+主播 B：还有家人问带娃能不能用？我太懂大家的需求了！咱们直播间很早之前就有好多宝宝来问，有没有暑假能用的机票卡 —— 毕竟孩子一年也就寒暑假能好好出去玩玩，但是正儿八经到了暑假，机票价格蹭蹭涨，每次都被价格劝退！
+今天这款湖北专属次卡就刚好解决这个问题：不光咱们湖北本地的朋友出发去全国各地能用，想来湖北玩的宝宝也能买，返程票用这个卡也能省一大笔！湖北本身就是超棒的旅游地啊，武汉的黄鹤楼、热干面，宜昌的三峡大坝，恩施的大峡谷，好吃好玩的特别多，不管是出发还是来玩都合适！
+主播 A：没错，这款卡的适用人群也特别广：2 周岁以上的乘客都能兑换，2-12 岁的儿童不能单独出行，需要有成人陪同，不管是一家老小暑运出游，还是学生放假出去玩、毕业旅行、和同学结伴出行都能囤，拍几张就对应几个人的权益，家庭出行、学生出行全都适配～
+主播 A：这里再给大家强调两个细节，避免大家有疑问：
+① 兑换非常方便：抖音小程序就能兑，至少提前 3 个自然日兑换就行，确定行程的情况下越早兑越好；
+② 今天的 328 元起的价格，不含机建燃油费，机建燃油附加费是换票的时候另行支付，和你买正价机票的税费标准一样，都可以开电子发票，报销没有问题。
+主播 B：目前没有看到合适航班日期的宝贝们不要着急，咱们这个产品会不定期更新可兑航班日期，大家可以先囤卡锁暑运低价，后续随时去兑换专区刷新查看，不同航线的可兑日期以兑换专区的实际查询为准，早拍早锁定优惠，下播就没这个价了，暑运这个价真的很难得！
+主播 A：锁到今年 8 月 31 日前的暑运出行低价、东航官方保障，这么难得的暑运福利，还在犹豫的家人真的不用等了，赶紧点击下方黄色小房子下单，早拍早兑心仪的航班！</div>
+      </details>
+      <details class="blk">
+        <summary>互动（可根据评论做部分回复）</summary>
+        <div class="blk-body">1.问：包不包含机建燃油费？
+✅ 答：咱们的次卡不含机建燃油费哦，换票的时候另行支付就可以啦，国内近期机建燃油费有所下调，具体以实际查询为准。（8月5日起，国内800公里及以下40元；800公里以上70元）
+2.问：我带孩子可以买吗？
+✅ 答：可以的哦，2 周岁以上都能兑换～不过 2-12 岁的儿童需要成人陪同，不可单独出票，兑换时先兑换大人的票，再单独兑换儿童票，兑换界面有绑定大人姓名和票号的地方，填写进去就可以啦。如果您的儿童不足2周岁，需要拨打客服电话购买婴儿抱票。
+3.问：怎么查询航线？
+✅ 答：可以先看商品详情页做参考哦，详情页仅作参考，拍下后可以去抖音兑换专区查看实时可兑航线，没有合适的只要未出票都可以申请退款哦。
+4.问：买了查询航线没有想要的可以退吗？
+✅ 答：可以的哦，只要机票未出票，都可以申请全额退款，放心囤就好～</div>
+      </details>
+      <details class="blk">
+        <summary>产品规则（主播 A + 主播 B 串讲）</summary>
+        <div class="blk-body">主播 B：跟大家快速讲下核心规则，首先是兑换时间：咱们这款湖北进出港专属国内单次卡，抖音兑换码需要在购买之日起 30 个自然日内兑换，兑换后 30 天内使用，最晚到 2026 年 10 月 24 日；可兑航班是 即日起至 10 月 24 日，至少提前 3 个自然日兑换，确定行程越早兑越好。
+主播 A：然后是查航线的重点提醒：商品详情页的航线仅做参考，具体可兑的航班和日期，一定要以拍下后抖音兑换专区的实时查询为准，没有合适的只要没出票都能退，放心。
+主播 B：退款规则也很简单：
+✅ 没激活、没兑票、没出票，都能全额退，过期自动退
+✅ 已经出票的，航班起飞前 48 小时外退票，权益返还；不足 48 小时权益不返还
+✅ 产品不支持自愿改航班，也不能签转东上航以外的航司
+主播 A：最后说下使用人规则：2 周岁以上都能用，2-12 岁的儿童需要成人陪同，不能单独出票；兑换时先兑大人的票，再兑儿童票，兑换界面绑定大人票号就行。
+主播 B：卡价不含机建燃油，换票时另行支付；行程结束后可以在东航抖音服务专区开电子发票，有任何问题打东航客服热线 95530 就可以啦。</div>
+      </details>
+      <details class="blk">
+        <summary>兑换方式</summary>
+        <div class="blk-body">主播 B：很多宝宝问买到后怎么兑换，我一步一步讲，全程跟着抖音订单操作，超简单：
+① 打开抖音【我的订单】，找到咱们东航的订单，点「去使用」
+② 进入页面后，在「去使用」的右上角点「券码信息」，下方会弹出专属券码弹窗，直接点复制就好
+③ 再点页面中间的「去使用」进入「抖音兑换专区」
+④ 粘贴兑换码，点「立即兑换」完成激活
+这里跟大家强调：这一步只是绑定激活，不是出票！激活后就能查所有可兑航线和日期，有合适的就付机建燃油费出票，没有的话，哪怕激活了只要没出票，不影响退款
+⑤ 激活后点「卡券查询」-「商品兑换」，选航线和乘机人，付机建燃油就出票完成啦！
+热门航线座位有限，确定行程的宝宝尽早兑换哦～</div>
+      </details>
+      <details class="blk">
+        <summary>逼单（收尾）</summary>
+        <div class="blk-body">主播 A：再跟大家说一下，咱们这个专属活动不是每天都有的，下播之后这个专属链接就下架了，就没有 328 元起的专属优惠价了！暑运这个价格真的太难得了，平时节前机票随便一张都要大几百上千！
+主播 B：尤其是九月十月要带娃旅游的家长：咱们平时上班忙，一年也就假期能踏踏实实陪孩子出门玩，但是机票一天一个价，越等越贵，到跟前再买真的太贵了；还有咱们的大学生宝宝们，好不容易放个长假，要么和同学约着旅行，要么想出去走走看看祖国的大好河山，大家肯定都想找划算的机票对吧？今天这个卡真是太适合了，就算现在还没完全确定行程也先拍下来锁价！
+主播 A：而且咱们的退款规则非常宽松，没激活、没兑票、没出票，都能全额退；就算已经出票了，只要距离航班起飞还有 48 小时以上，退票也能返还权益次数，全程没有任何损失，相当于提前锁住 10 月 24 日前的暑运低价！
+主播 B：每个航班的可兑座位都是有限的，先拍先囤先占座，暑运热门航线手慢可能就兑不到心仪日期了！拍了的家人也记得尽快去兑换专区确认行程锁座位，还没下单的家人赶紧点下方黄色小房子，早拍早安心！</div>
+      </details>
+    </div>
+  </div>
+  <!-- ========== 国际中转膨胀券 ========== -->
+  <div class="prod p-orange" id="p-pengzhang" data-cat="coupon">
+    <div class="prod-head">
+      <span class="prod-no">64-65 号</span>
+      <span class="prod-name">国际中转机票代金券（膨胀券）</span>
+      <span class="prod-meta"><span class="price">50 抵 200（经济舱）/ 100 抵 400（公务舱）</span><span class="pill o">每日限量</span></span>
+    </div>
+    <div class="src">脚本原标题：国际中转膨胀券产品引入（64-65号链接）</div>
+      <div class="prod-body">
+      <details class="blk" open>
+        <summary>产品引入（64-65 号链接）</summary>
+        <div class="blk-body">主播 A：今天给经常飞国际的宝贝上个专属福利！东航国际中转膨胀券！花 50 块钱能当 200 块花，花 100 块钱能当 400 块花！买国际中转机票直接抵现金！
+主播 B：没错宝贝们！飞国际的机票本来就贵，用这个券直接省大几百！经济舱、公务舱都有对应的券，不管你是留学、探亲还是出国玩都能用！
+主播 A：而且这个券也是限量的！经济舱 200 元券每天 2000 张，公务舱 400 元券每天 1000 张，经常飞国际的宝贝今天一定要囤！</div>
+      </details>
+      <details class="blk">
+        <summary>产品介绍 / 产品规则（全部限制一次讲清）</summary>
+        <div class="blk-body">主播 A：跟大家把所有规则和限制都讲得明明白白，大家听清楚再拍：
+限购和限量：每个账户每个档位限购 10 张，每天限量：200 元经济舱券每天 2000 张，400 元公务舱券每天 1000 张
+使用人限制：仅限东方万里行会员本人使用，不能给别人用
+适用范围：仅限东上航实际承运的、经中国大陆中转的国际及港澳台航班
+满减门槛：200 元经济舱券需要机票票面价满 800 元可用；400 元公务舱券需要票面价满 1600 元可用
+适用舱位：经济舱券对应 K/L/N/R/S/V 舱，公务舱券对应 Q/I 舱
+使用规则：只能抵扣机票票价，不能和其他优惠券叠加，每张机票只能用 1 张，只能在东航官网、APP、小程序用
+改退规则：用券买的票不能签转；自愿改期、升舱需要补回抵扣的金额；自愿退票不返还券，只有客票完全未使用的自愿改期、非自愿退票才返还券
+有效期：抖音兑换码有效期为购买之日起30个自然日内；产品使用有效期为抖音兑换码兑换之日起30天内；航班日期为抖音兑换码兑换之日起90天内
+其他：买券的钱不累积里程积分和年消费金额，没使用可以全额退，过期自动退
+主播 B：所有规则都给大家讲清楚了，有国际中转出行需求的宝贝再拍，有问题打东航客服 95530 咨询～</div>
+      </details>
+      <details class="blk">
+        <summary>互动（可根据评论做部分回复）</summary>
+        <div class="blk-body">问：这个券怎么用？
+✅ 答：买了之后兑换到你的东方万里行会员账户里，买东上航经中国大陆中转的国际 / 港澳台机票时，满足满减门槛和对应舱位就能直接抵扣现金，具体可以在买票时通过优惠券选择栏查看是否适用，不适用的话只要券没使用都可以退哦。
+问：经济舱和公务舱都能用吗？
+✅ 答：是的，有专门的经济舱券和公务舱券，对应舱位就能用，飞国际不管选经济舱还是公务舱都能享优惠。具体可以在买票时通过优惠券选择栏查看是否适用，不适用的话只要券没使用都可以退哦。
+问：用了之后行程有变怎么办？
+✅ 答：客票完全未使用的情况下，自愿改期、非自愿退票会返还券的权益；自愿退票不返还券的权益哦。
+问：不用了能退吗？
+✅ 答：当然可以！只要券没使用，随时能申请全额退款，过期没使用系统也会自动退款！</div>
+      </details>
+      <details class="blk">
+        <summary>逼单（收尾）</summary>
+        <div class="blk-body">主播 A：再跟大家说一下，今天这个国际中转膨胀券真的是飞国际的专属福利，花小钱省大钱，放心囤券！
+主播 B：50 抵 200，100 抵 400，有国际中转出行计划的宝贝囤上真的不亏，没用也能退，完全没负担！
+主播 A：每天限量的福利，还没抢的家人抓紧最后时间，点击下方黄色小房子就能抢！</div>
+      </details>
+    </div>
+  </div>
+
+  <!-- ========== 中泰 ========== -->
+  <div class="prod p-pink" id="p-zhongtai" data-cat="quyou">
+    <div class="prod-head">
+      <span class="prod-no">66 号</span>
+      <span class="prod-name">东航趣游卡 · 中泰纪念版 4 次卡</span>
+      <span class="prod-meta"><span class="price">1600 元 / 4 次</span><span class="pill p">激活后 365 天</span></span>
+    </div>
+    <div class="src">脚本原标题：中泰产品引入（66号）</div>
+      <div class="prod-body">
+      <div class="note pink">主题 Slogan：神奇泰国，心选之旅</div>
+      <details class="blk" open>
+        <summary>产品引入（66 号）</summary>
+        <div class="blk-body">主播 A：经常看我们直播间的朋友们一定对国际多次卡不陌生，价格划算、有效期长，特别适合高频出行的朋友！今天给大家带来【东航趣游卡中泰纪念版 4 次卡】，1600 元 4 次！大家点开下方黄色小房子可以查看详情页哦。
+主播 B：活动力度非常大，1600 元 4 次泰国航线单程权益，算下来单次才 400 元，4张机票相当于 2 次往返！如果您近期有去泰国旅游、出行需求，真的要看过来，省钱就要省到家！这款是机会型产品，适用航线和可兑航班以兑换专区实时查询为准。</div>
+      </details>
+      <details class="blk">
+        <summary>产品介绍 · 航线</summary>
+        <div class="blk-body">【介绍航线】
+主播A：我们的东航趣游卡中泰纪念版4次卡在这里主播要特别解释一下，我们的产品规则页面展示的是当前可兑换航线。因为随着日期变化以及淡旺季，可兑换的余位会发生变化，一定要以兑换专区内实际查询为准。
+主播B：接下来给大家介绍一下航线：上海-曼谷，上海-普吉岛，上海-清迈，昆明-曼谷，昆明-普吉岛，昆明-清迈，太原-曼谷，北京-曼谷，温州-曼谷，兰州-曼谷，武汉-曼谷，西安-普吉岛，广州-曼谷，曼谷-上海，普吉岛-上海，清迈-上海，曼谷-昆明，普吉岛-昆明，清迈-昆明，曼谷-太原，曼谷-温州，曼谷-北京，曼谷-兰州，曼谷-武汉，普吉岛-西安，曼谷-广州等。（根据情况随机念一些就行）</div>
+      </details>
+      <details class="blk">
+        <summary>塑品（逼单）</summary>
+        <div class="blk-body">主播 B：今天是东航官方直播间，所有机票的改退政策、价格规则，主播都会讲得明明白白，让你买的放心买的安心！平时正价买一次中泰单程机票就动辄上千元，今天直播间 1600 元直接拿下 4 次，激活后 365 天都能用！
+主播 A：而且不用担心囤了用不掉！未激活可全退、激活后未兑票可全退、未按时绑定或到期未使用自动退，三重保障兜底！只要剩余使用次数还是 4 次，就能全额退款，有中泰出行计划的宝贝们，先囤锁定优惠，没计划也不亏！提醒大家：这款卡仅限绑定 1 人使用，绑定后不可变更哦。
+主播 B：中泰热门航线可兑座位有限，早囤早兑换，早兑换早安心！想解锁中泰出行优惠机票的家人，赶紧下单，手慢可能就兑不到心仪航班了！</div>
+      </details>
+      <details class="blk">
+        <summary>互动（高频问答）</summary>
+        <div class="blk-body">问：包不包含燃油税费？/ 为什么兑换的时候让我再付钱？
+✅ 答：咱们这款中泰 4 次卡不含燃油及其他税费哦，换票的时候需要另行支付，不同航线税费不同，税费标准和正价国际机票是一样的。具体在兑换时可以查看到，如果觉得不合适，只要完全未使用都可以申请退款的。
+问：我带孩子可以买吗？
+✅ 答：可以的哦，2 周岁以上都能兑换～不过 2-12 岁的儿童需要和成人在同一订单内兑换，需要成人陪同，不可单独出票；如果您的儿童不足 2 周岁，需要拨打客服电话购买婴儿票。
+问：怎么查询航线？
+✅ 答：可以先看商品详情页做参考哦，详情页仅作参考，拍下后可以去抖音兑换专区查看实时可兑的泰国航线，这款是机会型产品，具体可兑航班以兑换专区实时查询为准。
+问：买了查询航线没有想要的可以退吗？
+✅ 答：可以的哦，只要完全未使用（剩余 4 次权益），不管有没有激活兑换，都可以申请全额退款，放心囤就好～只要使用过哪怕 1 次，就不支持退款了哦。
+问：可以两个人一起用吗？
+✅ 答：不可以哦，这个产品仅限绑定 1 人使用，绑定后不可变更，不支持多人共享。
+问：我只用了两次，剩下的可以退吗？
+✅ 答：不可以哦，不支持部分退款，只有一次都没有使用、剩余 4 次权益的情况下，才可以申请全额退款。
+问：兑换需要提前多久？
+✅ 答：东方万里行 2 星及以上会员，没有提前兑换限制；2 星以下会员或非会员，需要至少提前 14 个自然日兑换哦。</div>
+      </details>
+      <details class="blk">
+        <summary>产品规则（主播 A + 主播 B 串讲）</summary>
+        <div class="blk-body">主播A：重点给大家讲清楚咱们这款中泰趣游纪念版四次卡的兑换时效。大家优先参考产品详情页的详细规则，抖音兑换码有效期为，购买之日起30个自然日内，产品成功激活后，拥有365个自然日的使用周期，可兑换中泰直达航线航班。同时兑换有对应会员要求：东方万里行两星及以上会员，无兑换日期前置要求，随时可兑换；两星以下会员或非会员用户，需要至少提前14个自然日完成兑换。所有可兑航班、具体出行日期，均以东航兑换专区实时查询结果为准。
+主播B：兑换机票时，只需另行支付对应出行税费即可完成出票，行程结束后可正常开具报销凭证。使用本产品兑换的客票，可享受和正价机票一致的行李额度。
+主播A：接下来为大家讲解产品的绑定、退款以及退改相关规则。这款产品需要绑定固定乘机人，绑定完成后无法变更，大家提前确认好出行人员信息。退款规则简单清晰：产品未激活，或是激活后未产生任何兑票使用记录，都可以申请全额退款；一旦产生任意使用次数，将不再支持退款。同时产品不支持自愿变更航班，也不可签转至东航、上航以外的航班。若已成功出票，在航班计划起飞120小时及以上办理自愿退票，可返还对应权益次数并退还相关税费；若不足120小时退票，不予返还权益次数，仅退还部分税费。如遇航班非自愿情况退票，都会正常返还权益次数。
+主播B：大家在产品激活、乘机人绑定、机票兑换的全过程中，有任何疑问，都可以拨打东航客服热线95530咨询。再次温馨提醒，所有可兑换航班及出行时段，最终均以产品兑换专区实时查询内容为准。</div>
+      </details>
+      <details class="blk">
+        <summary>兑换方式</summary>
+        <div class="blk-body">主播 B：很多宝宝问买到后怎么兑换，我一步一步讲，全程跟着抖音订单操作，超简单：
+① 打开抖音【我的订单】，找到咱们东航的订单，点「去使用」
+② 进入页面后，在「去使用」的右上角点「券码信息」，下方会弹出专属券码弹窗，直接点复制就好
+③ 再点页面中间的「去使用」进入「抖音兑换专区」
+④ 粘贴兑换码，点「立即兑换」完成激活
+这里跟大家强调：这一步只是绑定激活，不是出票！激活后就能查所有可兑航线和日期，有合适的就付机建燃油税费出票，没有的话，哪怕激活了只要没出票，不影响退款
+⑤ 激活后点「卡券查询」-「商品兑换」，选航线和乘机人，付机建燃油税费就出票完成啦！
+热门航线座位有限，确定行程的宝宝尽早兑换哦～</div>
+      </details>
+      <details class="blk">
+        <summary>逼单（收尾）</summary>
+        <div class="blk-body">主播A：而且大家可以放心囤，咱们这款是中泰航线专属的纪念版四次兑换权益，一整年的使用周期非常宽裕，不管是近期出行还是之后规划旅途都很合适。名额每套都是独立权益，自用、预留出行都很划算。
+主播B：关键是规则非常友好，全程未使用都可以全额退，没有囤货压力。想要预留中泰出行名额的家人，直接看下方链接，按需锁定权益就可以啦。</div>
+      </details>
+    </div>
+  </div>
+  <!-- ========== 趣游卡亚洲版 ========== -->
+  <div class="prod" id="p-yazhou" data-cat="quyou">
+    <div class="prod-head">
+      <span class="prod-no">67-68 号</span>
+      <span class="prod-name">东航趣游卡 · 亚洲版（经济舱 6 次 / 10 次）</span>
+      <span class="prod-meta"><span class="price">2400（6 次）/ 3200（10 次）</span><span class="pill">仅限绑定 1 人</span></span>
+    </div>
+    <div class="src">脚本原标题：引入产品（趣游卡亚洲版） 67-68号</div>
+      <div class="prod-body">
+      <details class="blk" open>
+        <summary>引入产品（趣游卡亚洲版）</summary>
+        <div class="blk-body">主播 A：刚才有看到很多朋友说这种多次卡机票产品有没有国际版，给主播扣个 1，让我看看想要这类产品的宝贝们多不多？
+主播 B：【东航趣游卡】本场福利升级！除了之前的全国版，今天还给大家带来了亚洲版两款多次卡，6 次卡、10 次卡都有，覆盖泰国、新加坡等热门亚洲目的地，喜欢出国旅游的朋友们一定要看过来！</div>
+      </details>
+      <details class="blk">
+        <summary>产品介绍</summary>
+        <div class="blk-body">主播 A：咱们今天同步上线两款亚洲版次卡，核心权益也很实在，家人们按需选择！第一款「趣游卡亚洲版 6 次卡」，2400 元就能拥有 6 次亚洲及地区单程直达经济舱机票兑换权益，相当于一次单程机票才 400 元；第二款「趣游卡亚洲版 10 次卡」，3200 元解锁 10 次兑换权益，平均每次才 320 元，越囤越划算！激活后 365 天都能用，覆盖一整年亚洲出行！
+主播 B：对的，这次价格直接拉满诚意，两款档位清晰：① 亚洲版 6 次卡：2400 元（6 次兑换权益）；② 亚洲版 10 次卡：3200 元（10 次兑换权益）！可通过详情页查看推荐航线，适用亚洲及地区航线，不含阿联酋、沙特等中东航线，最终以兑换专区内实际查询结果为准。提醒大家：两款卡均仅限绑定 1 人使用，绑定后不可变更哦。
+主播 A：两款产品可兑舱位都是经济舱，6 次卡产品名称为 “亚洲版 6 次卡”，10 次卡为 “亚洲版 10 次卡”，行李规则都和标准经济舱完全一样，价格有优惠，服务不打折！不过要跟大家重点说下风险提示：这是机会型产品，并非所有航线及航班在兑换时都有可兑座位，可能存在你想要的航线及航班不可兑的情况，具体以实际查询为主哦！</div>
+      </details>
+      <details class="blk">
+        <summary>塑品（逼单）</summary>
+        <div class="blk-body">主播 B：平时正价买一次亚洲及地区单程机票动辄上千元，今天直播间 2400 元 6 次、3200 元 10 次，激活后 365 天都能用！这个价格只在直播间有，错过很可惜！
+主播 A：两款卡都有三重退款保障：未激活可全退、激活后未兑票可全退、未按时绑定或到期未使用自动退！6 次卡剩余次数为 6 次、10 次卡剩余次数为 10 次，就能全额退款，有亚洲及地区出行计划的宝贝们，先囤锁定优惠，没计划也不亏！
+主播 B：亚洲及地区热门航线可兑座位的数量是有限的，早囤早兑换，早兑换早安心！经常去东南亚等国际行程的宝贝们，不管选 6 次卡还是 10 次卡，都能省不少钱，赶紧下单，手慢可能就兑不到心仪航班了！</div>
+      </details>
+      <details class="blk">
+        <summary>互动（高频问答）</summary>
+        <div class="blk-body">问：包不包含燃油税费？/ 为什么兑换的时候让我再付钱？
+✅ 答：咱们这两款亚洲版趣游卡不含燃油及其他税费哦，换票的时候需要另行支付，不同航线税费不同，税费标准和正价国际机票是一样的。具体在兑换时可以查看到，如果觉得不合适，只要完全未使用都可以申请退款的。
+问：我带孩子可以买吗？
+✅ 答：可以的哦，2 周岁以上都能兑换～不过 2-12 岁的儿童需要和成人在同一订单内兑换，需要成人陪同，不可单独出票；如果您的儿童不足 2 周岁，需要拨打客服电话购买婴儿票。
+问：怎么查询航线？
+✅ 答：可以先看商品详情页做参考哦，详情页仅作参考，拍下后可以去抖音兑换专区查看实时可兑的亚洲及地区航线（不含中东航线），这款是机会型产品，具体可兑航班以兑换专区实时查询为准。
+问：买了查询航线没有想要的可以退吗？
+✅ 答：可以的哦，6 次卡剩余 6 次权益、10 次卡剩余 10 次权益（完全未使用），不管有没有激活兑换，都可以申请全额退款，放心囤就好～只要使用过哪怕 1 次，就不支持退款了哦。
+问：可以两个人一起用吗？
+✅ 答：不可以哦，两款卡都仅限绑定 1 人使用，绑定后不可变更，不支持多人共享。
+问：我只用了几次，剩下的可以退吗？
+✅ 答：不可以哦，不支持部分退款，只有一次都没有使用、剩余全部权益的情况下，才可以申请全额退款。
+问：兑换需要提前多久？
+✅ 答：东方万里行 2 星及以上会员，没有提前兑换限制；2 星以下会员或非会员，需要至少提前 14 个自然日兑换哦。
+问：6 次卡和 10 次卡选哪个？
+✅ 答：中等频率亚洲出行选 2400 元 6 次卡，单次 400 元；高频出国旅游、探亲选 3200 元 10 次卡，单次仅 320 元，更划算～</div>
+      </details>
+      <details class="blk">
+        <summary>产品规则（主播 A + 主播 B 串讲）</summary>
+        <div class="blk-body">主播A： 主播还是要再强调一遍风险提示：并非所有航线及航班在兑换时都有可兑座位，可能存在你想要的航线及航班不可兑的情况哦！咱们这两款产品都适用于亚洲及地区单程直达经济舱（不含超级经济舱、不含阿联酋、沙特阿拉伯等中东航线），行李规则同标准经济舱，6次卡产品名称为“亚洲版6次卡”，10次卡为“亚洲版10次卡”，可兑航线参考中国港澳台地区、韩国、泰国等多个亚洲国家和地区。
+主播B： 兑换时限分两种情况：如果兑换账户的东方万里行会员等级是2星及以上，无提前兑换日期限制；如果是2星（不含）以下或非会员，须至少提前14个自然日（含）以上兑换，比如9月15日的航班，最晚可在9月1日兑换，大家一定要提前规划好亚洲及地区出行！
+主播A：关于有效期，两个关键时间点千万别忘！① 抖音兑换码有效期：购买之日起30个自然日内（必须在这个时间内激活绑定）；② 产品使用有效期：兑换之日起365个自然日内，可查询兑换之日起365天内的航班日期，最终以兑换专区查询结果为准！
+主播B：另外，兑换时需另行支付基建燃油附加费及其他税费，这些费用不可使用易享券抵扣，但可开具报销凭证，满足大家亚洲及地区出行报销需求。
+主播A： 再跟大家说下变更退票和退款规则，重中之重，两款卡规则一致，一定要记牢！首先是变更退票：不得自愿变更，不得自愿签转至非东/上航实际承运的航班；航班计划起飞前120小时（含）之外提交自愿退票，返还权益次数，退还燃油附加费及其他税费，反之不返还权益次数，不退还燃油附加费，仅退还其他税费；非自愿退票均返还权益次数。然后是退款规则：抖音兑换码未激活，或激活后未进行兑票（6次卡剩余次数还是6次、10次卡剩余次数还是10次），可在抖音订单申请全额退款；只要已使用（6次卡剩余次数小于6次、10次卡剩余次数小于10次），就不可退款；未在规定时间内绑定，或到期后全部未使用，会自动退款，大家完全不用担心！</div>
+      </details>
+      <details class="blk">
+        <summary>兑换方式</summary>
+        <div class="blk-body">主播 B：很多宝宝问买到后怎么兑换，我一步一步讲，全程跟着抖音订单操作，超简单：
+① 打开抖音【我的订单】，找到咱们东航的订单，点「去使用」
+② 进入页面后，在「去使用」的右上角点「券码信息」，下方会弹出专属券码弹窗，直接点复制就好
+③ 再点页面中间的「去使用」进入「抖音兑换专区」
+④ 粘贴兑换码，点「立即兑换」完成激活
+这里跟大家强调：这一步只是绑定激活，不是出票！激活后就能查所有可兑航线和日期，有合适的就付机建燃油税费出票，没有的话，哪怕激活了只要没出票，不影响退款
+⑤ 激活后点「卡券查询」-「商品兑换」，选航线和乘机人，付机建燃油税费就出票完成啦！
+热门航线座位有限，确定行程的宝宝尽早兑换哦～</div>
+      </details>
+      <details class="blk">
+        <summary>逼单（收尾）</summary>
+        <div class="blk-body">主播 A：来，我看很多宝贝都心动了，咱们机票的可兑数量是有限的，先到先得！我已经看到很多朋友在弹幕上准备下单了，我们后台老师把对应商品链接弹一下，方便大家精准下单，2400 元 6 次、3200 元 10 次，有亚洲出行计划的宝贝今天不要错过直播间的福利哦。
+主播 B：很多宝贝可能还在犹豫对不对？我们今天是东航官方直播间，售前有服务，售后有保障，大家可以放心拍：只要完全未使用，都能全额退，过期也自动退，所以还在犹豫、或者出行日期还没定好的宝贝都可以放心先囤。</div>
+      </details>
+    </div>
+  </div>
+
+  <!-- ========== 趣游卡亚洲公务舱 ========== -->
+  <div class="prod p-orange" id="p-yazhou-gw" data-cat="quyou">
+    <div class="prod-head">
+      <span class="prod-no">69-70 号</span>
+      <span class="prod-name">东航趣游卡 · 亚洲版公务舱（6 次 / 10 次）</span>
+      <span class="prod-meta"><span class="price">9600（6 次）/ 12000（10 次）</span><span class="pill o">5 星及以上无兑换限制</span></span>
+    </div>
+    <div class="src">脚本原标题：引入产品-东航趣游卡亚洲版公务舱 69-70号</div>
+      <div class="prod-body">
+      <details class="blk" open>
+        <summary>引入产品 · 东航趣游卡亚洲版公务舱</summary>
+        <div class="blk-body">主播 A：除了经济舱产品，这次直播也给大家带来了公务舱的福利，目的就是为了满足大家更高品质的旅行需求，公务舱舒适出行，体验感拉满！
+主播 B：是的宝贝们，如果您近期有商务出行、高端旅游需求，真的要看过来！
+主播 A：【东航趣游卡亚洲版公务舱】可兑换亚洲部分航线单程直达公务舱机票权益，适用航线详见抖音商品页面及东航兑换专区展示。【东航趣游卡亚洲版公务舱 6 次卡】仅需 9600 元，【东航趣游卡亚洲版公务舱 10 次卡】仅需 12000 元！提醒大家：部分航线兑换时需要额外支付 0/300/800/1500 元的票款差价，具体以兑换专区实际查询为准哦。</div>
+      </details>
+      <details class="blk">
+        <summary>产品介绍</summary>
+        <div class="blk-body">主播 A：咱们今天同步上线两款亚洲公务版次卡，核心权益尊享，家人们按需选择！第一款「趣游卡亚洲公务版 6 次卡」，9600 元就能拥有 6 次亚洲部分指定航线（中亚、西亚、东南亚、韩国部分航线）单程直达公务舱机票兑换权益，尊享公务舱出行体验，激活后 365 天都能用；第二款「趣游卡亚洲公务版 10 次卡」，12000 元解锁 10 次兑换权益，越囤越划算，高频公务出行推荐！
+主播 B：两款档位清晰：① 亚洲公务版 6 次卡：9600 元（6 次兑换权益）；② 亚洲公务版 10 次卡：12000 元（10 次兑换权益）！可自行输入亚洲部分指定航线查询可兑航班，部分航线需额外支付 0/300/800/1500 元票款差价，最终以兑换专区内实际查询结果为准。提醒大家：两款卡均仅限绑定 1 人使用，绑定后不可变更哦。
+主播 A：行李规则同标准公务舱，尊享公务舱专属服务，体验不打折！兑换时限也跟大家说清楚：5 星及以上会员无提前兑换限制，5 星以下会员或非会员需至少提前 7 天兑换。不过要跟大家重点说下风险提示：这是机会型产品，并非所有航线及航班在兑换时都有可兑座位，可能存在你想要的航线及航班不可兑的情况，具体以实际查询为主哦！</div>
+      </details>
+      <details class="blk">
+        <summary>塑品（逼单）</summary>
+        <div class="blk-body">主播 B：平时正价买一次亚洲公务舱单程机票动辄几千上万元，今天直播间 9600 元 6 次、12000 元 10 次！尊享公务舱专属服务，10 次平均每次只要 1200 元，不管是一年内多次往返亚洲公务出行，还是商务差旅刚需，都很划算，这个价格只在直播间有，错过很可惜！
+主播 A：两款卡都有三重退款保障：未激活可全退、激活后未兑票可全退、未按时绑定或到期未使用自动退！6 次卡剩余次数为 6 次、10 次卡剩余次数为 10 次，就能全额退款，有亚洲公务出行计划的宝贝们，先囤锁定优惠，没计划也不亏！
+主播 B：亚洲公务舱热门航线可兑座位有限，而且可兑舱位会随机票常规销售、同类产品兑换情况实时变化调整，早囤早兑换，早兑换早安心！经常往返亚洲、有商务差旅需求的家人，不管选 6 次卡还是 10 次卡，都能省不少钱，赶紧下单，手慢可能就兑不到心仪航班了！</div>
+      </details>
+      <details class="blk">
+        <summary>互动（高频问答）</summary>
+        <div class="blk-body">问：包不包含燃油税费？/ 为什么兑换的时候让我再付钱？
+✅ 答：咱们这两款亚洲公务版趣游卡不含燃油及其他税费哦，换票的时候需要另行支付；另外部分航线兑换时还需要额外支付 0/300/800/1500 元的票款差价，不同航线税费和差价不同，标准和正价机票一致。具体在兑换时可以查看到，如果觉得不合适，只要完全未使用都可以申请退款的。
+问：我带孩子可以买吗？
+✅ 答：可以的哦，2 周岁以上都能兑换～不过 2-12 岁的儿童需要和成人在同一订单内兑换，需要成人陪同，不可单独出票；如果您的儿童不足 2 周岁，需要拨打客服电话购买婴儿票。
+问：怎么查询航线？
+✅ 答：可以先看商品详情页做参考哦，详情页仅作参考，拍下后可以去抖音兑换专区查看实时可兑的亚洲部分指定公务舱航线，这款是机会型产品，具体可兑航班、差价以兑换专区实时查询为准。
+问：买了查询航线没有想要的可以退吗？
+✅ 答：可以的哦，6 次卡剩余 6 次权益、10 次卡剩余 10 次权益（完全未使用），不管有没有激活兑换，都可以申请全额退款，放心囤就好～只要使用过哪怕 1 次，就不支持退款了哦。
+问：可以两个人一起用吗？
+✅ 答：不可以哦，两款卡都仅限绑定 1 人使用，绑定后不可变更，不支持多人共享。
+问：我只用了几次，剩下的可以退吗？
+✅ 答：不可以哦，不支持部分退款，只有一次都没有使用、剩余全部权益的情况下，才可以申请全额退款。
+问：兑换需要提前多久？
+✅ 答：东方万里行 5 星及以上会员，没有提前兑换限制；5 星以下会员或非会员，需要至少提前 7 个自然日兑换哦。</div>
+      </details>
+      <details class="blk">
+        <summary>产品规则（主播 A + 主播 B 串讲）</summary>
+        <div class="blk-body">主播A：那么我们再强调一遍风险提示：这是机会型产品，并非所有航线及航班在兑换时都有可兑座位，可能存在你想要的航线及航班不可兑的情况哦！咱们这两款产品都适用于亚洲部分指定航线（中亚、西亚、东南亚、韩国部分航线）的单程直达公务舱，6次卡产品名称为“亚洲公务版6次卡”，10次卡为“亚洲公务版10次卡”，行李规则同标准公务舱，部分航线兑换时还需额外支付300、800或1500元票款差价，具体航线可参考规则底部航线表，最终以兑换专区查询结果为准。
+
+主播B： 兑换时限和之前不一样，重点记牢：如果兑换账户的东方万里行会员等级是5星及以上，无提前兑换日期限制；如果是5星（不含）以下或非会员，须至少提前7个自然日（含）以上兑换，比如11月30日的航班，最晚可在11月23日兑换，大家一定要提前规划好亚洲公务舱出行！
+
+主播A： 关于有效期，两个关键时间点千万别忘！① 抖音兑换码有效期：购买之日起30个自然日内（必须在这个时间内激活绑定）；② 产品使用有效期：兑换之日起365天内，可查询兑换之日起365天内的航班日期，最终以兑换专区查询结果为准！
+
+主播B：另外，兑换时需另行支付燃油附加费及其他税费，这些费用不可使用易享券抵扣，但可开具报销凭证，满足大家亚洲公务舱出行报销需求；还要注意，部分航线需额外支付票款差价，具体以兑换时查询为准。
+
+主播A：再跟大家说下变更退票和退款规则，重中之重，两款卡规则一致，一定要记牢！首先是变更退票：不得自愿变更，不得自愿签转至非东/上航实际承运的航班；航班计划起飞前120小时（含）之外提交自愿退票，返还权益次数，退还燃油附加费、其他税费及航线票款差价，反之不返还权益次数，不退还燃油附加费及航线票款差价，仅退还其他税费；非自愿退票均返还权益次数。然后是退款规则：抖音兑换码未激活，或激活后未进行兑票（6次卡剩余次数还是6次、10次卡剩余次数还是10次），可在抖音订单申请全额退款；只要已使用（6次卡剩余次数小于6次、10次卡剩余次数小于10次），就不可退款；未在规定时间内绑定，或到期后全部未使用，会自动退款，大家完全不用担心！
+
+主播B： 最后跟大家说几个特别说明，一定要知悉！部分航线兑换需支付票款差价，具体可参考规则底部航线表，有任何疑问，详询东航24小时客服热线：95530！</div>
+      </details>
+      <details class="blk">
+        <summary>兑换方式</summary>
+        <div class="blk-body">主播 B：很多宝宝问买到后怎么兑换，我一步一步讲，全程跟着抖音订单操作，超简单：
+① 打开抖音【我的订单】，找到咱们东航的订单，点「去使用」
+② 进入页面后，在「去使用」的右上角点「券码信息」，下方会弹出专属券码弹窗，直接点复制就好
+③ 再点页面中间的「去使用」进入「抖音兑换专区」
+④ 粘贴兑换码，点「立即兑换」完成激活
+这里跟大家强调：这一步只是绑定激活，不是出票！激活后就能查所有可兑航线和日期，有合适的就付机建燃油税费出票，没有的话，哪怕激活了只要没出票，不影响退款
+⑤ 激活后点「卡券查询」-「商品兑换」，选航线和乘机人，付机建燃油税费就出票完成啦！
+热门航线座位有限，确定行程的宝宝尽早兑换哦～</div>
+      </details>
+      <details class="blk">
+        <summary>逼单（收尾）</summary>
+        <div class="blk-body">主播 A：来，我看很多宝贝都心动了，咱们机票的可兑数量是有限的，先到先得！我已经看到很多朋友在弹幕上准备下单了，我们后台老师把对应商品链接弹一下，方便大家精准下单，9600 元 6 次、12000 元 10 次，有亚洲公务出行计划的宝贝今天不要错过直播间的福利哦。
+主播 B：很多宝贝可能还在犹豫对不对？我们今天是东航官方直播间，售前有服务，售后有保障，大家可以放心拍：只要完全未使用，都能全额退，过期也自动退，所以还在犹豫、或者出行日期还没定好的宝贝都可以放心先囤。</div>
+      </details>
+    </div>
+  </div>
+
+  <!-- ========== 趣游卡全球版 ========== -->
+  <div class="prod p-pink" id="p-quanqiu" data-cat="quyou">
+    <div class="prod-head">
+      <span class="prod-no">71-72 号</span>
+      <span class="prod-name">东航趣游卡 · 全球版（6 次 / 10 次）</span>
+      <span class="prod-meta"><span class="price">4800（6 次）/ 6400（10 次）</span><span class="pill p">不含美洲航线</span></span>
+    </div>
+    <div class="src">脚本原标题：引入产品（趣游卡全球版）<br>71-72号</div>
+      <div class="prod-body">
+      <details class="blk" open>
+        <summary>引入产品（趣游卡全球版）</summary>
+        <div class="blk-body">主播 A：刚才有看到很多朋友说有没有更划算的多次卡机票产品，给主播扣个 1，让我看看想要这类产品的宝贝们多不多？
+主播 B：【东航趣游卡】本场福利升级！除了全国版、亚洲版，今天还给大家带来了全球版两款多次卡，6 次卡、10 次卡都有，覆盖除美洲外的全球热门目的地，喜欢出国旅游的朋友们一定要看过来！</div>
+      </details>
+      <details class="blk">
+        <summary>产品介绍</summary>
+        <div class="blk-body">主播 A：咱们今天同步上线两款全球版次卡，核心权益清晰明了，家人们按需选择！第一款「趣游卡全球版 6 次卡」，4800 元就能拥有 6 次国际及港澳台地区单程直达经济舱机票兑换权益，激活后 365 天都能用；第二款「趣游卡全球版 10 次卡」，6400 元解锁 10 次同类型兑换权益，越囤越划算，高频国际出行推荐！适用航线不含美国、加拿大、阿根廷等美洲航线，涵盖欧洲、大洋洲、亚洲及中国港澳台地区等多个热门目的地。
+主播 B：价格直接拉满诚意，两款档位清晰可辨：① 全球版 6 次卡：4800 元（6 次兑换权益）；② 全球版 10 次卡：6400 元（10 次兑换权益）！提醒大家：两款卡均仅限绑定 1 人使用，绑定后不可变更哦。可通过详情页查询推荐航线，最终以兑换专区内实际查询结果为准。
+主播 A：两款产品可兑舱位均为经济舱（不含超级经济舱），6 次卡产品名称为 “全球版 6 次卡”，10 次卡为 “全球版 10 次卡”，行李规则同标准经济舱，尊享常规经济舱服务，体验不打折！
+主播B：不过要跟大家重点说下风险提示：这是机会型产品，并非所有航线及航班在兑换时都有可兑座位，可能存在你想要的航线及航班不可兑的情况，具体以实际查询为主哦！</div>
+      </details>
+      <details class="blk">
+        <summary>塑品（逼单）</summary>
+        <div class="blk-body">主播 A：平时正价买一次国际及港澳台地区经济舱单程机票动辄几千元，今天直播间 4800 元 6 次、6400 元 10 次！享受标准经济舱服务，十次卡平均每次 640 元，不管是一年内多次往返国际及地区，还是出行刚需，都很划算，这个价格只在直播间有，错过很可惜！
+主播 B：两款卡都有三重退款保障：未激活可全退、激活后未兑票可全退、未按时绑定或到期未使用自动退！6 次卡剩余次数为 6 次、10 次卡剩余次数为 10 次，就能全额退款，有国际及港澳台地区出行计划的宝贝们，先囤锁定优惠，没计划也不亏！
+主播 A：全球版热门国际及地区航线可兑座位有限，而且可兑舱位会随机票常规销售、同类产品兑换情况实时变化调整，早囤早兑换，早兑换早安心！经常往返国际及地区、有出行需求的家人，不管选 6 次卡还是 10 次卡，都能省不少钱，赶紧下单，手慢可能就兑不到心仪航班了！</div>
+      </details>
+      <details class="blk">
+        <summary>互动（高频问答）</summary>
+        <div class="blk-body">问：包不包含燃油税费？/ 为什么兑换的时候让我再付钱？
+✅ 答：咱们这两款全球版趣游卡不含燃油及其他税费哦，换票的时候需要另行支付，不同航线税费不同，税费标准和正价国际机票是一样的。具体在兑换时可以查看到，如果觉得不合适，只要完全未使用都可以申请退款的。
+问：我带孩子可以买吗？
+✅ 答：可以的哦，2 周岁以上都能兑换～不过 2-12 岁的儿童需要和成人在同一订单内兑换，需要成人陪同，不可单独出票；如果您的儿童不足 2 周岁，需要拨打客服电话购买婴儿票。
+问：怎么查询航线？
+✅ 答：可以先看商品详情页做参考哦，详情页仅作参考，拍下后可以去抖音兑换专区查看实时可兑的除美洲外的全球国际及地区航线，这款是机会型产品，具体可兑航班以兑换专区实时查询为准。
+问：买了查询航线没有想要的可以退吗？
+✅ 答：可以的哦，6 次卡剩余 6 次权益、10 次卡剩余 10 次权益（完全未使用），不管有没有激活兑换，都可以申请全额退款，放心囤就好～只要使用过哪怕 1 次，就不支持退款了哦。
+问：可以两个人一起用吗？
+✅ 答：不可以哦，两款卡都仅限绑定 1 人使用，绑定后不可变更，不支持多人共享。
+问：我只用了几次，剩下的可以退吗？
+✅ 答：不可以哦，不支持部分退款，只有一次都没有使用、剩余全部权益的情况下，才可以申请全额退款。
+问：兑换需要提前多久？
+✅ 答：东方万里行 2 星及以上会员，没有提前兑换限制；2 星以下会员或非会员，需要至少提前 14 个自然日兑换哦。</div>
+      </details>
+      <details class="blk">
+        <summary>产品规则 · 第一段（乘机人 / 限购 / 风险提示）</summary>
+        <div class="blk-body">主播A： 首先是乘机人要求：乘机人年龄须为12周岁及以上，而且绑定规则很关键——购买后30个自然日内，必须激活产品作为使用账户，账户须为12周岁以上，后续登录该账户使用；还要绑定1名乘机人，绑定后不可变更！另外提醒下购买规则：每档产品限购10套，有需要多囤的家人们，记得把握好数量哦！
+主播B： 另外再强调一遍风险提示：这是机会型产品，并非所有航线及航班在兑换时都有可兑座位，可能存在你想要的航线及航班不可兑的情况哦！
+主播A：咱们这两款产品都适用于国际及地区单程直达经济舱（不含超级经济舱、不包含美国、加拿大、阿根廷等美洲航线），6次卡产品名称为“全球版6次卡”，10次卡为“全球版10次卡”，行李规则同标准经济舱，可兑航线参考英国、意大利、韩国、泰国等多个国家和地区，最终以兑换专区查询结果为准。</div>
+      </details>
+      <details class="blk">
+        <summary>产品规则 · 第二段（兑换时限 / 有效期 / 退改退款）</summary>
+        <div class="blk-body">主播B： 兑换时限重点记牢：如果兑换账户的东方万里行会员等级是2星及以上，无提前兑换日期限制；如果是2星（不含）以下或非会员，须至少提前14个自然日（含）以上兑换，比如5月15日的航班，最晚可在5月1日兑换，大家一定要提前规划好国际及港澳台地区出行！
+主播A： 关于有效期，两个关键时间点千万别忘！① 抖音兑换码有效期：购买之日起30个自然日内（必须在这个时间内激活绑定）；② 产品使用有效期：兑换之日起365天内，可查询兑换之日起365天内的航班日期，最终以兑换专区查询结果为准！另外，兑换时需另行支付燃油附加费及其他税费，具体金额以实际查询为主！
+主播B： 再跟大家说下变更退票和退款规则，重中之重，两款卡规则一致，一定要记牢！首先是变更退票：不得自愿变更，不得自愿签转至非东/上航实际承运的航班；航班计划起飞前120小时（含）之外提交自愿退票，返还权益次数，退还燃油附加费及其他税费，反之不返还权益次数，不退还燃油附加费，仅退还其他税费；非自愿退票均返还权益次数。然后是退款规则：抖音兑换码未激活，或激活后未进行兑票（6次卡剩余次数还是6次、10次卡剩余次数还是10次），可在抖音订单申请全额退款；只要已使用（6次卡剩余次数小于6次、10次卡剩余次数小于10次），就不可退款；未在规定时间内绑定，或到期后全部未使用，会自动退款，大家完全不用担心！</div>
+      </details>
+      <details class="blk">
+        <summary>兑换方式</summary>
+        <div class="blk-body">主播 A：很多宝宝问买到后怎么兑换，我一步一步讲，全程跟着抖音订单操作，超简单：
+① 打开抖音【我的订单】，找到咱们东航的订单，点「去使用」
+② 进入页面后，在「去使用」的右上角点「券码信息」，下方会弹出专属券码弹窗，直接点复制就好
+③ 再点页面中间的「去使用」进入「抖音兑换专区」
+④ 粘贴兑换码，点「立即兑换」完成激活
+这里跟大家强调：这一步只是绑定激活，不是出票！激活后就能查所有可兑航线和日期，有合适的就付机建燃油税费出票，没有的话，哪怕激活了只要没出票，不影响退款
+⑤ 激活后点「卡券查询」-「商品兑换」，选航线和乘机人，付机建燃油税费就出票完成啦！
+热门航线座位有限，确定行程的宝宝尽早兑换哦～</div>
+      </details>
+      <details class="blk">
+        <summary>逼单（收尾）</summary>
+        <div class="blk-body">主播 B：来，我看很多宝贝都心动了，咱们机票的可兑数量是有限的，先到先得！我已经看到很多朋友在弹幕上准备下单了，我们后台老师把对应商品链接弹一下，方便大家精准下单，4800 元 6 次、6400 元 10 次，有全球出行计划的宝贝今天不要错过直播间的福利哦。
+主播 A：很多宝贝可能还在犹豫对不对？我们今天是东航官方直播间，售前有服务，售后有保障，大家可以放心拍：只要完全未使用，都能全额退，过期也自动退，所以还在犹豫、或者出行日期还没定好的宝贝都可以放心先囤。</div>
+      </details>
+    </div>
+  </div>
+  <!-- ========== 直减券（单人） ========== -->
+  <div class="prod" id="p-zhijian" data-cat="coupon">
+    <div class="prod-head">
+      <span class="prod-no">73-75 号</span>
+      <span class="prod-name">惠享东方全球经济舱多次直减券（面值 1000）</span>
+      <span class="prod-meta"><span class="price">2750（4 次）/ 3550（6 次）/ 4950（10 次）</span><span class="pill">仅限绑定 1 人</span></span>
+    </div>
+    <div class="src">脚本原标题：引入产品-国际及港澳台经济舱多次直减券<br>直减券产品介绍<br>73-75号</div>
+      <div class="prod-body">
+      <details class="blk" open>
+        <summary>引入产品 · 国际及港澳台经济舱多次直减券</summary>
+        <div class="blk-body">主播 A: 刚才有看到很多朋友说想要了解一下多次的国际航线产品，朋友们你们真的问对了，先统计下，想要的宝贝们扣个 1，让我看看有多少宝贝想要，再来一波福利好不好？
+主播 B：有没有经常坐咱们东航航班的老朋友，快来告诉我们你们下一个想飞往的目的地是哪里，让我们来给你介绍下合适的机票产品。
+主播 A：【惠享东方全球经济舱多次直减券包】今天给大家安排上！直播间专享价，1000 元大面额机票抵扣券，三个档位可选：4 次 2750 元、6 次 3550 元、10 次 4950 元，覆盖全球所有航线，直达中转都能用，数量有限，先到先得！</div>
+      </details>
+      <details class="blk">
+        <summary>产品介绍（73-75 号）</summary>
+        <div class="blk-body">主播 B：下面给大家介绍下咱们的多次券。咱们今天上线的多次券包不是机票，是机票抵用券，多档位可选，按需囤更划算！三个档位清晰明了：① 1000 元抵用券4 次，仅需 2750 元；② 1000 元抵用券6 次，仅需 3550 元；③ 1000 元抵用券 * 10 次，仅需 4950 元！适用东航、上航实际承运的中国大陆往返全球多地区直达及中转航班，经济舱、超级经济舱都能用，覆盖很广，激活后 365 天都能用！
+主播 A：行李规则同对应舱位标准，出行体验不打折！提醒大家：这款券包仅限绑定 1 人使用，绑定后不可变更哦。不过要跟大家重点说下规则提示：具体可兑航班需以查询结果为准，抵用券仅抵扣机票票价，购买前一定要了解哦</div>
+      </details>
+      <details class="blk">
+        <summary>塑品（逼单）</summary>
+        <div class="blk-body">主播 B：券包有三重退款保障：未激活可全退、激活后未进行兑票可全退、产品到期后全部未使用自动退！只要抵用券次数没减少（还是对应档位的总次数），就能全额退款，有国际及地区出行计划的宝贝们，先囤锁定优惠，没计划也不亏！
+主播 A：热门国际及中国港澳台地区航线可兑座位有限，早囤早使用，早使用早省钱！经常往返国际及港澳台地区、有购票需求的家人，不管选哪个档位，都能省不少钱，赶紧下单，手慢可能就没了！</div>
+      </details>
+      <details class="blk">
+        <summary>互动 · 第一段</summary>
+        <div class="blk-body">问：包不包含燃油税费？/ 为什么抵扣后还要付钱？
+✅ 答：咱们这款券包是每次抵扣 1000 元机票票面价格的抵用券，仅抵扣机票票面价，需要您补齐其他机票差价。而且不含燃油及其他税费哦，购票的时候税费需要另行支付，不同航线税费不同，标准和正价机票是一样的。具体在购票时可以查看到，如果觉得不合适，只要完全未使用都可以申请退款的。
+问：我带孩子可以买吗？
+✅ 答：可以的哦，2 周岁以上都能使用～不过 2-12 岁的儿童需要和成人在同一订单内购票，需要成人陪同，不可单独出票；如果您的儿童不足 2 周岁，需要拨打客服电话购买婴儿票。
+问：怎么查询适用航线？
+✅ 答：可以先看商品详情页做参考哦，详情页仅作参考，拍下激活后可以在抖音兑换专区购票时直接使用，适用东上航承运的全球所有航线（含北美），直达、中转航班都能用，经济舱、超级经济舱都支持。</div>
+      </details>
+      <details class="blk">
+        <summary>互动 · 第二段</summary>
+        <div class="blk-body">问：买了没有合适的航班可以退吗？
+✅ 答：可以的哦，对应档位的抵用券完全未使用（剩余对应总次数），不管有没有激活兑换，都可以申请全额退款，放心囤就好～只要使用过哪怕 1 次，就不支持退款了哦。
+问：可以两个人一起用吗？
+✅ 答：不可以哦，这款券包仅限绑定 1 人使用，绑定后不可变更，不支持多人共享。
+问：我只用了几次，剩下的可以退吗？
+✅ 答：不可以哦，不支持部分退款，只有一次都没有使用、剩余全部抵用券的情况下，才可以申请全额退款。
+问：抵用券怎么使用？
+✅ 答：购票时每张券直接抵扣 1000 元机票票面价，每个航段限用 1 张，单程最多用 1 张，往返程最多用 2 张，不可与其他抵用券叠加使用。</div>
+      </details>
+      <details class="blk">
+        <summary>产品规则 · 第一段（适用范围 / 使用要求 / 有效期）</summary>
+        <div class="blk-body">主播A： 我们再强调一遍规则提示：咱们这款是券包产品，具体可兑航班需以查询结果为准哦！咱们这款国际直减券产品适用东航、上航实际承运的中国大陆往返欧洲、大洋洲、亚洲、非洲、北美及中国港澳台地区的直达及中转航班，大家可放心使用。
+主播B： 还有抵用券使用要求：仅能抵扣机票票价，不能和其他抵用券叠加使用，每个订单每个航段限用1次，单程限用1次，往返程最多用2次，大家购票时一定要注意这一点！
+主播A： 关于有效期，两个关键时间点千万别忘！① 抖音兑换码有效期：购买之日起30个自然日内（必须在这个时间内通过东方万里行会员账户兑换激活）；② 产品使用有效期：绑定产品使用账户之日起365个自然日内，航班日期也需在这个时间段内，最终以查询结果为准！</div>
+      </details>
+      <details class="blk">
+        <summary>产品规则 · 第二段（变更退票 / 退款）</summary>
+        <div class="blk-body">主播B： 再跟大家说下变更退票和退款规则，重中之重，一定要记牢！首先是变更退票：用抵用券买的机票如果需要自愿改期或升舱，要按实际机票金额和变更手续费收取，还得补足抵用券抵扣的票价，非自愿变更不用补足；退票手续费按实际机票金额计算。
+主播A：另外，客票完全未使用时发生自愿变更或非自愿退票，返还权益次数，一旦使用过，就不返还了。然后是退款规则：抖音兑换码未激活，或激活后未进行兑票（包含权益返还），可在抖音订单申请全额退款；只要已使用（对应卡券次数不足发放时的总次数），就不可退款；产品到期后全部未使用，会自动退款，大家完全不用担心！
+主播B：有何疑问，详询东航24小时客服热线：95530！</div>
+      </details>
+      <details class="blk">
+        <summary>兑换方式</summary>
+        <div class="blk-body">主播A：很多宝宝问买到后怎么兑换，我一步一步讲，全程跟着抖音订单操作，超简单：
+① 打开抖音【我的订单】，找到咱们东航的订单，点「去使用」
+② 进入页面后，在「去使用」的右上角点「券码信息」，下方会弹出专属券码弹窗，直接点复制就好
+③ 再点页面中间的「去使用」进入「抖音兑换专区」
+④ 粘贴兑换码，点「立即兑换」完成激活
+这里跟大家强调：这一步只是绑定激活，不是出票！激活后就能查所有可兑航线和日期，有合适的就付机建燃油税费出票，没有的话，哪怕激活了只要没出票，不影响退款
+⑤ 激活后点「卡券查询」-「商品兑换」，选航线和乘机人，付机建燃油税费就出票完成啦！
+热门航线座位有限，确定行程的宝宝尽早兑换哦～</div>
+      </details>
+      <details class="blk">
+        <summary>逼单（收尾）</summary>
+        <div class="blk-body">主播 B：来，我看很多宝贝都心动了，咱们券包的数量是有限的，先到先得！我已经看到很多朋友在弹幕上准备下单了，我们后台老师把对应商品链接弹一下，方便大家精准下单，2750 元 4 次、3550 元 6 次、4950 元 10 次，有全球出行计划的宝贝今天不要错过直播间的福利哦。
+主播 A：很多宝贝可能还在犹豫对不对？我们今天是东航官方直播间，售前有服务，售后有保障，大家可以放心拍：只要完全未使用，都能全额退，过期也自动退，所以还在犹豫、或者出行日期还没定好的宝贝都可以放心先囤。</div>
+      </details>
+    </div>
+  </div>
+
+  <!-- ========== 直减券多人（4 人版） ========== -->
+  <div class="prod p-orange" id="p-zhijian-duo" data-cat="coupon">
+    <div class="prod-head">
+      <span class="prod-no">76-81 号</span>
+      <span class="prod-name">惠享东方全球多次直减券 · 4 人版（经济舱 / 公务舱）</span>
+      <span class="prod-meta"><span class="price">经济舱面值 1000（76-77）/ 公务舱面值 2000（78-79）/ 面值 3000（80-81）</span><span class="pill o">最多绑定 4 人</span></span>
+    </div>
+    <div class="src">脚本原标题：引入产品-国际及港澳台多次直减券（多人版）<br>经济舱面值1000 76-77<br>公务舱面值2000 78-79<br>公务舱面值3000 80-81</div>
+      <div class="prod-body">
+      <details class="blk" open>
+        <summary>引入产品 · 国际及港澳台多次直减券（多人版）</summary>
+        <div class="blk-body">主播 A: 今天的直播我们也是诚意满满，今天进入直播间的宝贝们真的是来对了，除了单次卡和趣游卡我们还贴心的为您准备了多人多次直减券，不仅有经济舱，还有公务舱，最多可绑定 4 人使用，特别适合家庭、朋友结伴出行！现在就把对应商品链接弹上来，【惠享东方全球多次直减券 4 人版】！
+主播 B：【惠享东方全球多次直减券 4 人版】直播间专享价，1000/2000/3000 元大面额抵扣券多档位可选，覆盖全球所有航线，直达中转都能用，数量有限，先到先得！</div>
+      </details>
+      <details class="blk">
+        <summary>产品介绍（全部档位价目）</summary>
+        <div class="blk-body">主播 A：咱们今天上线的直减券（4 人版），核心权益特别实在 —— 分经济舱和公务舱两个版本，抵用券面额、档位各不相同，按需囤更划算！所有档位清晰明了，大家仔细听：① 全球经济舱 4 人版：1000 元抵用券12 次 7200 元、1000 元抵用券20 次 10000 元；
+
+② 全球公务舱 4 人版：2000 元抵用券10 次 14000 元、2000 元抵用券16 次 19200 元、
+
+③3000 元抵用券10 次 21000 元、3000 元抵用券16 次 28800 元！适用东航、上航实际承运的中国大陆往返全球多地区直达及中转航班，覆盖更广，至多可绑定 4 人同行，激活后 365 天都能用！
+主播 B：咱们 4 人版券包分两个版本：① 全球经济舱 4 人版；② 全球公务舱 4 人版，行李规则同对应舱位标准，出行体验不打折！提醒大家：多位乘机人出行需分开下单哦。不过要跟大家重点说下规则提示：具体可兑航班需以查询结果为准，抵用券仅抵扣机票票价，购买前一定要了解哦～</div>
+      </details>
+      <details class="blk">
+        <summary>塑品（逼单）</summary>
+        <div class="blk-body">主播 A：平时买国际及港澳台地区机票，不管经济舱还是公务舱，一张动辄几千上万元，今天直播间 4 人版券包，活动力度直接升级！经济舱 1000 元抵用券，12 张才 7200 元、20 张 10000 元；公务舱 2000 元抵用券 10 张 14000 元、16 张 19200 元，3000 元抵用券 10 张 21000 元、16 张 28800 元，越囤越划算！不管是一年内多次往返，还是多人同行单次购票抵扣，都能省不少钱，这个价格只在直播间有，错过很可惜！
+主播 B：券包有三重退款保障：未激活可全退、激活后未进行兑票可全退、产品到期后全部未使用自动退！只要抵用券次数没减少（还是对应档位的总次数），就能全额退款，有国际及港澳台地区多人出行计划的宝贝们，先囤锁定优惠，没计划也不亏！
+主播 A：热门国际及港澳台地区航线可兑座位有限，早囤早使用，早使用早省钱！经常往返国际及地区、有购票需求的家人，不管选哪个档位，都能省不少钱，赶紧下单，手慢可能就没了！</div>
+      </details>
+      <details class="blk">
+        <summary>互动 · 第一段</summary>
+        <div class="blk-body">问：包不包含燃油税费？/ 为什么抵扣后还要付钱？
+✅ 答：咱们这款 4 人版券包是机票票面价抵用券，经济舱每次抵扣 1000 元、公务舱每次抵扣 2000/3000 元，仅抵扣机票票面价，超出部分需要补齐差价；而且不含燃油及其他税费哦，购票的时候税费需要另行支付，不同航线税费不同，标准和正价机票是一样的。具体在购票时可以查看到，如果觉得不合适，只要完全未使用都可以申请退款的。
+问：我带孩子可以买吗？
+✅ 答：可以的哦，2 周岁以上都能使用～不过 2-12 岁的儿童需要和成人在同一订单内购票，需要成人陪同，不可单独出票；如果您的儿童不足 2 周岁，需要拨打客服电话购买婴儿票。
+问：怎么查询适用航线？
+✅ 答：可以先看商品详情页做参考哦，详情页仅作参考，拍下激活后可以在东航 APP、官网、小程序购票时直接使用，适用东上航承运的全球所有航线（含北美），直达、中转航班都能用，经济舱 / 超级经济舱、公务舱对应档位都支持。</div>
+      </details>
+      <details class="blk">
+        <summary>互动 · 第二段</summary>
+        <div class="blk-body">问：买了没有合适的航班可以退吗？
+✅ 答：可以的哦，对应档位的抵用券完全未使用（剩余对应总次数），不管有没有激活兑换，都可以申请全额退款，放心囤就好～只要使用过哪怕 1 次，就不支持退款了哦。
+问：可以几个人一起用吗？可以更改乘机人吗？
+✅ 答：这款 4 人版券包最多可绑定 4 名乘机人使用，绑定后不可变更，多人出行需要分开下单，绑定后不支持更换乘机人哦。
+问：我只用了几次，剩下的可以退吗？
+✅ 答：不可以哦，不支持部分退款，只有一次都没有使用、剩余全部抵用券的情况下，才可以申请全额退款。
+问：抵用券怎么使用？
+✅ 答：购票时每张券直接抵扣对应面额的机票票面价，每个航段限用 1 张，单程最多用 1 张，往返程最多用 2 张，不可与其他抵用券叠加使用，多位乘机人出行需分开下单。
+问：不同档位怎么选？
+✅ 答：经济舱出行选 1000 元面额档位，公务舱出行选 2000/3000 元面额档位，出行次数多选次数多的档位，性价比更高～</div>
+      </details>
+      <details class="blk">
+        <summary>产品规则 · 第一段（乘机人 / 绑定 / 适用范围 / 有效期）</summary>
+        <div class="blk-body">主播A： 看到好多弹幕问 “带娃能不能用”“怎么绑定”，家人们认真听，咱们这款惠享东方多次券包（4人版）的规则，一定要记牢！首先是乘机人要求：乘机人年龄须为12周岁及以上，绑定规则分两步，重点记好——第一步，购买后30个自然日内，必须通过东方万里行会员账户（须12周岁以上）兑换本产品，作为产品使用账户，后续登录该账户用抵用券购票；第二步，兑换之日起30个自然日内，通过这个账户绑定适用乘机人，绑定后不可变更，至多可绑定4人！
+主播B： 另外再强调一遍规则提示：咱们这款是4人版券包产品，具体可兑航班需以查询结果为准，购买前一定要知悉哦！适用东航、上航实际承运的中国大陆往返欧洲、大洋洲、亚洲、非洲、北美及中国港澳台地区的直达及中转航班，分经济舱和公务舱两个版本，适用舱位不同，大家可按需选择！
+主播A：还有抵用券使用要求：仅能抵扣机票票价，不能和其他抵用券叠加使用，每个订单每个航段限用1次，单程限用1次，往返程最多用2次。重点提醒：多位适用乘机人出行时需分开下单，大家购票时一定要注意这一点！
+主播B： 关于有效期，两个关键时间点千万别忘！① 抖音兑换码有效期：购买之日起30个自然日内（必须在这个时间内通过东方万里行会员账户兑换激活）；② 产品使用有效期：兑换之日起365天内，航班日期也需在这个时间段内，最终以查询结果为准！</div>
+      </details>
+      <details class="blk">
+        <summary>产品规则 · 第二段（变更退票 / 退款）</summary>
+        <div class="blk-body">主播A： 再跟大家说下变更退票和退款规则，重中之重，一定要记牢！首先是变更退票：用抵用券买的客票不能签转；自愿改期或升舱，要按实际机票金额和变更手续费收取，还得补足抵用券抵扣的票价，非自愿变更不用补足；退票手续费按实际机票金额计算。另外，客票完全未使用时发生自愿变更或非自愿退票，返还权益次数，一旦使用过，就不返还了。
+主播B：然后是退款规则：抖音兑换码未激活，或激活后未进行兑票（包含权益返还），可在抖音订单申请全额退款；只要已使用（对应卡券次数不足发放时的总次数），就不可退款；产品到期后全部未使用，会自动退款，大家完全不用担心！
+主播A：有任何疑问，详询东航24小时客服热线：95530！</div>
+      </details>
+      <details class="blk">
+        <summary>兑换方式</summary>
+        <div class="blk-body">主播 B：很多宝宝问买到后怎么兑换，我一步一步讲，全程跟着抖音订单操作，超简单：
+① 打开抖音【我的订单】，找到咱们东航的订单，点「去使用」
+② 进入页面后，在「去使用」的右上角点「券码信息」，下方会弹出专属券码弹窗，直接点复制就好
+③ 再点页面中间的「去使用」进入「抖音兑换专区」
+④ 粘贴兑换码，点「立即兑换」完成激活
+这里跟大家强调：这一步只是绑定激活，不是出票！激活后就能查所有可兑航线和日期，有合适的就付机建燃油税费出票，没有的话，哪怕激活了只要没出票，不影响退款
+⑤ 激活后点「卡券查询」-「商品兑换」，选航线和乘机人，付机建燃油税费就出票完成啦！
+热门航线座位有限，确定行程的宝宝尽早兑换哦～</div>
+      </details>
+      <details class="blk">
+        <summary>逼单（收尾）</summary>
+        <div class="blk-body">主播 A：来，我看很多宝贝都心动了，咱们 4 人版券包的数量是有限的，先到先得！我已经看到很多朋友在弹幕上准备下单了，我们后台老师把对应商品链接弹一下，方便大家精准下单，适合家庭、朋友多人出行，有全球出行计划的宝贝今天不要错过直播间的福利哦。
+主播 B：很多宝贝可能还在犹豫对不对？我们今天是东航官方直播间，售前有服务，售后有保障，大家可以放心拍：只要完全未使用，都能全额退，过期也自动退，所以还在犹豫、或者出行日期还没定好的宝贝都可以放心先囤。</div>
+      </details>
+    </div>
+  </div>
+
+  <!-- ========== 空中 Wi-Fi ========== -->
+  <div class="prod p-pink" id="p-wifi" data-cat="rights">
+    <div class="prod-head">
+      <span class="prod-no">82-84 号</span>
+      <span class="prod-name">高速版空中 Wi-Fi（单次券 82 / 半年卡·一年卡 83-84）</span>
+      <span class="prod-meta"><span class="price">120 · 399 / 599</span><span class="pill p">机上上网</span></span>
+    </div>
+    <div class="src">脚本原标题：引入产品（wifi）</div>
+      <div class="prod-body">
+      <details class="blk" open>
+        <summary>引入产品（Wi-Fi）</summary>
+        <div class="blk-body">【引入空中WiFi】
+经常坐飞机的宝贝肯定都有这个痛点：一上飞机就断网，长航线想刷手机、回消息、办公都不方便，临时机上买 WiFi 又贵！今天给大家把东航机上 WiFi 所有档位的信息精准讲清楚，大家按需选：</div>
+      </details>
+      <details class="blk">
+        <summary>产品介绍 · 档位说明</summary>
+        <div class="blk-body">高速版空中WiFi国内及韩国单次券（40元）本次没有</div>
+      </details>
+      <details class="blk">
+        <summary>高速版空中WiFi国际（除日韩）单次券 （120元）82号链接</summary>
+        <div class="blk-body small">1、本券可兑换1次国际（除日韩）航线单次全程高速版上网权益。
+2、抖音兑换码有效期：自购买之日起30天可兑换（含购买当日）
+3、产品使用有效期：自兑换之日起180天内有效。
+4、使用方法：航班起飞前以兑换本券的会员账号登录，通过东航官网（www.ceair.com）、APP、M网站、小程序，选择对应优惠券订购单段适用航班范围内的空中Wi-Fi产品时使用。（兑换券需在航班起飞前使用）
+5、适用范围：由东航、上航实际承运（挂MU/FM代码）的具备机上互联服务网功能的国际（除日韩）航线（具体以购票时实际查询为准），不适用于中转或经停航班。单次航班全航程使用1次，高速带宽。
+6、产品退款规则：如抖音兑换码未激活或激活后未兑换使用，则用户可在抖音订单发起退款，退款将在2个工作日内到账，券兑换使用后不支持退款。</div>
+      </details>
+      <details class="blk">
+        <summary>空中Wi-Fi极速版年卡/半年卡规则 83-84号链接</summary>
+        <div class="blk-body small">1. 年卡/半年卡在购买后需绑定乘机人身份信息，经空中身份认证匹配成功后，即可自动使用空中Wi-Fi。每张年卡/半年卡限绑定一位使用人（即乘机人，至多4个证件号），绑定后无法更换证件信息，请谨慎操作。
+2. 年卡/半年卡自绑定使用人之日起开始计算使用有效期，半年卡有效期为180天，一年卡有效期为365天，有效期内不限使用次数。
+3. 年卡/半年卡需在购买后30天内绑定乘机人身份信息（可为他人绑定），在东航自有渠道购买的年卡/半年卡如超时未绑定，卡片将失效，请前往订单提交退订；绑定后未启用（未实际产生空中上网流量），也可前往订单提交退订。
+4. 绑定使用人可通过东航APP、微信小程序、支付宝小程序查询卡内信息和使用记录。
+5. 年卡/半年卡适用于东航、上航实际承运的提供空中互联服务的所有宽体机航班（包括空客330和空客350系列，波音777和787系列），也可通过东航APP搜索航班列表查询带有空中Wi-Fi标志的航班。
+6. 年卡/半年卡成功启用（实际产生空中上网流量）后不支持退款。产品启用后可在东方航空移动端（东方航空APP、微信小程序）抖音服务专区申请开具电子发票，发票抬头可选择企业或个人，个人抬头为抖音兑换码激活人，发票一经开具不得变更。
+7. 购买年卡/半年卡产品，每个账号每类年卡/半年卡产品最多购买10套（含积分兑换）。
+8. 年卡/半年卡产品提供的上网服务同现有极速版全航程产品，其他使用规则，请参考空中Wi-Fi产品现有规则或使用须知。如您对空中互联服务有任何疑问或建议可咨询东航客服热线95530。</div>
+      </details>
+    </div>
+  </div>
+
+  <!-- ========== 贵宾厅 ========== -->
+  <div class="prod" id="p-guibin" data-cat="rights">
+    <div class="prod-head">
+      <span class="prod-no">85 号</span>
+      <span class="prod-name">自营贵宾室单次券</span>
+      <span class="prod-meta"><span class="price">120 元</span><span class="pill">仅限东方万里行会员</span></span>
+    </div>
+    <div class="prod-body">
+      <details class="blk" open>
+        <summary>产品引入（贵宾厅）<br>（120）85号</summary>
+        <div class="blk-body small">自营贵宾室产品规则
+1.仅限“东方万里行”会员使用；
+2.仅限预订东方航空官网、APP、M站、微信小程序“订贵宾室”频道在售自营贵宾室（虹桥国际、浦东过夜、浦东77号、浦东118号、浦东119号和“礼遇畅享”等部分贵宾室不适用），部分贵宾室可能存在临时关闭或装修情况，请按实际在售资源为准；；
+3.优惠券不设找零，不能兑换现金；
+4.每个订单限用1张；不可与其他优惠叠加使用；
+5.有效期：抖音兑换码到6月30日；
+6.退改政策：已预订成功且未使用的“订贵宾室”订单如遇取消，在有效期内将返还至会员卡包，已使用的“订贵宾室”订单如遇取消，则不退还已使用卡券；
+7.贵宾室具体使用须知可在预订页面详询；
+8.优惠券可通过登录-东方航空官网或东方航空APP-我的-卡券中查看；
+9.如对本活动规则有异议或需咨询，可咨询客服热线：95530。</div>
+      </details>
+    </div>
+  </div>
+</section>
+<!-- ===================== 4. 核对提示 ===================== -->
+<section id="s4">
+  <div class="sec-head">
+    <div class="sec-num">4</div>
+    <div><h2>核对提示</h2><div class="sub">计划表与脚本表述不一致处（原文均未改动，仅作提示）</div></div>
+  </div>
+  <div class="card">
+    <div class="note">以下为直播前建议二次确认的点，正文内容全部按原始文件原样保留，未做任何修改：</div>
+    <div class="faq-q">
+      <div class="q"><b>1</b>云南版日期</div>
+      <div class="a">《直播计划》写「国内经济舱单次卡云南版 <b>9.10-10.24</b>（44-47号）」；《直播脚本·全国单次卡（区域版）》列表中写「7.云南版 <b>8.7-10.24</b>（44-47号链接）」。开播前建议与运营确认统一口径。</div>
+    </div>
+    <div class="faq-q">
+      <div class="q"><b>2</b>全国单次卡（071-924）日期</div>
+      <div class="a">《直播计划》写「国内经济舱单次卡 <b>9.21-10.24</b>（2-6号）」；脚本口播为「<b>即日起到10月24号</b>」「即日起至2026年10月24日」。两者不冲突，口播按脚本即可。</div>
+    </div>
+    <div class="faq-q">
+      <div class="q"><b>3</b>区域版口播中的季节词</div>
+      <div class="a">区域版脚本口播出现「暑运」「暑假」「8月31号」等季节表述，但可兑航班统一为「即日起至 10 月 24 日」。9 月 24 日场次建议主播按实际季节替换说法（脚本原文已原样保留）。</div>
+    </div>
+    <div class="faq-q">
+      <div class="q"><b>4</b>贵宾厅有效期</div>
+      <div class="a">贵宾厅脚本原文「有效期：抖音兑换码到 <b>6月30日</b>」，与 9 月 24 日场次明显不匹配，建议开播前向运营核实最新有效期。</div>
+    </div>
+    <div class="faq-q">
+      <div class="q"><b>5</b>档位价格补充</div>
+      <div class="a">《直播计划》中 Wi-Fi 半年卡/一年卡标价为 <b>399/599</b>；脚本规则页未写价格，只写使用规则。直减券 / 4人版直减券的具体价目以脚本「产品介绍」段落为准。</div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  9月24日 东航西北直播间 · 主播口播速查手册 ｜ 数据来源：《9月24日直播计划.xlsx》《0924直播脚本.xlsx》<br>
+  内容全文搬运、未做删改 ｜ 搜索框输入关键词可全站检索 ｜ 客服热线 95530
+</footer>
+
+</div>
+
+<button class="totop" id="totop" title="回到顶部">↑</button>
+
+<script>
+(function(){
+  var q = document.getElementById('q');
+  var bodies = Array.prototype.slice.call(document.querySelectorAll('.blk-body, .faq-q .a'));
+  var prods = Array.prototype.slice.call(document.querySelectorAll('#s2 .prod, #s3 .prod'));
+  var faqs  = Array.prototype.slice.call(document.querySelectorAll('#s1 .faq-q'));
+  var cats  = Array.prototype.slice.call(document.querySelectorAll('#s1 .faq-cat'));
+  var rows  = Array.prototype.slice.call(document.querySelectorAll('#s0 .idx-table tbody tr'));
+  var secs  = {s1:document.getElementById('s1'), s2:document.getElementById('s2'), s3:document.getElementById('s3')};
+  var curQ = '', curCat = 'all';
+
+  var stat = document.createElement('div');
+  stat.className = 'note blue';
+  stat.style.display = 'none';
+  var s0 = document.getElementById('s0');
+  s0.parentNode.insertBefore(stat, s0);
+
+  function clearMarks(root){
+    var marks = root.querySelectorAll('mark');
+    for (var i = 0; i < marks.length; i++){
+      var m = marks[i];
+      m.parentNode.replaceChild(document.createTextNode(m.textContent), m);
+    }
+    root.normalize();
+  }
+  function markNode(node, kw){
+    var s = node.nodeValue, lower = s.toLowerCase(), p, i = 0;
+    if (lower.indexOf(kw) === -1) return;
+    var frag = document.createDocumentFragment();
+    while ((p = lower.indexOf(kw, i)) !== -1){
+      if (p > i) frag.appendChild(document.createTextNode(s.substring(i, p)));
+      var mk = document.createElement('mark');
+      mk.textContent = s.substr(p, kw.length);
+      frag.appendChild(mk);
+      i = p + kw.length;
+    }
+    if (i < s.length) frag.appendChild(document.createTextNode(s.substring(i)));
+    node.parentNode.replaceChild(frag, node);
+  }
+  function markAll(root, kw){
+    var walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, null, false);
+    var nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach(function(n){ markNode(n, kw); });
+  }
+
+  function apply(){
+    bodies.forEach(clearMarks);
+    var kw = curQ;
+    var searching = kw.length > 0;
+
+    // 产品卡 + 通用话术卡
+    var nProd = 0;
+    prods.forEach(function(p){
+      var inS3 = !!p.closest('#s3');
+      var catOk = (!inS3) || (curCat === 'all') || (p.getAttribute('data-cat') === curCat);
+      var blks = Array.prototype.slice.call(p.querySelectorAll('details.blk'));
+      var any = false;
+      blks.forEach(function(b){
+        var hit = !searching || b.textContent.toLowerCase().indexOf(kw) > -1;
+        if (hit && catOk){
+          b.classList.remove('hidden');
+          any = true;
+          if (searching) b.open = true;
+        } else {
+          b.classList.add('hidden');
+        }
+      });
+      var show = catOk && (!searching || any);
+      if (show){ p.classList.remove('hidden'); nProd++; } else { p.classList.add('hidden'); }
+      if (searching && show){
+        p.querySelectorAll('details.blk:not(.hidden) .blk-body').forEach(function(b){ markAll(b, kw); });
+      }
+    });
+
+    // 常见问题
+    var nFaq = 0;
+    faqs.forEach(function(f){
+      var hit = !searching || f.textContent.toLowerCase().indexOf(kw) > -1;
+      if (hit){ f.classList.remove('hidden'); nFaq++; } else { f.classList.add('hidden'); }
+    });
+    cats.forEach(function(c){
+      var vis = c.querySelectorAll('.faq-q:not(.hidden)').length;
+      if (searching && vis === 0) c.classList.add('hidden'); else c.classList.remove('hidden');
+    });
+    if (searching && nFaq > 0){
+      faqs.forEach(function(f){
+        if (!f.classList.contains('hidden')){
+          var a = f.querySelector('.a');
+          if (a) markAll(a, kw);
+        }
+      });
+    }
+
+    // 索引表
+    var nRow = 0;
+    rows.forEach(function(r){
+      var hit = !searching || r.textContent.toLowerCase().indexOf(kw) > -1;
+      if (hit){ r.classList.remove('hidden'); nRow++; } else { r.classList.add('hidden'); }
+    });
+
+    if (searching){
+      secs.s1.style.display = (nFaq > 0) ? '' : 'none';
+      secs.s2.style.display = document.querySelectorAll('#s2 .prod:not(.hidden)').length ? '' : 'none';
+      secs.s3.style.display = document.querySelectorAll('#s3 .prod:not(.hidden)').length ? '' : 'none';
+      stat.style.display = 'block';
+      stat.innerHTML = '🔍 搜索「' + q.value.trim() + '」：命中 <b>' + nFaq + '</b> 条问答 · <b>' + nProd + '</b> 个话术卡 · <b>' + nRow + '</b> 条链接号记录。清空搜索框即可恢复全部。';
+    } else {
+      secs.s1.style.display = '';
+      secs.s2.style.display = '';
+      secs.s3.style.display = '';
+      stat.style.display = 'none';
+    }
+  }
+
+  var timer = null;
+  q.addEventListener('input', function(){
+    clearTimeout(timer);
+    timer = setTimeout(function(){ curQ = q.value.trim().toLowerCase(); apply(); }, 160);
+  });
+
+  document.getElementById('filters').addEventListener('click', function(e){
+    var b = e.target.closest('.fbtn');
+    if (!b) return;
+    Array.prototype.slice.call(this.querySelectorAll('.fbtn')).forEach(function(x){ x.classList.remove('on'); });
+    b.classList.add('on');
+    curCat = b.getAttribute('data-cat');
+    apply();
+  });
+
+  document.getElementById('btnOpen').addEventListener('click', function(){
+    document.querySelectorAll('details.blk').forEach(function(d){ d.open = true; });
+  });
+  document.getElementById('btnClose').addEventListener('click', function(){
+    document.querySelectorAll('details.blk').forEach(function(d){ d.open = false; });
+  });
+  document.getElementById('btnGoIndex').addEventListener('click', function(){
+    document.getElementById('s0').scrollIntoView({behavior:'smooth', block:'start'});
+  });
+  document.getElementById('btnTop').addEventListener('click', function(){
+    window.scrollTo({top:0, behavior:'smooth'});
+  });
+
+  var tt = document.getElementById('totop');
+  window.addEventListener('scroll', function(){
+    if (window.scrollY > 420) tt.classList.add('show'); else tt.classList.remove('show');
+  });
+  tt.addEventListener('click', function(){ window.scrollTo({top:0, behavior:'smooth'}); });
+})();
+</script>
+</body>
+</html>
